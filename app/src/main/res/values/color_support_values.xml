@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="color_week_day_long">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="color_week_day_short">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="normal_touchsearch_keys" translatable="false">
+        <item>*</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="special_touchsearch_keys" translatable="false">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="union_touchsearch_keys" translatable="false">
+        <item>*</item>
+        <item>A</item>
+        <item>•</item>
+        <item>D</item>
+        <item>•</item>
+        <item>G</item>
+        <item>•</item>
+        <item>I</item>
+        <item>•</item>
+        <item>L</item>
+        <item>•</item>
+        <item>O</item>
+        <item>•</item>
+        <item>R</item>
+        <item>•</item>
+        <item>T</item>
+        <item>•</item>
+        <item>W</item>
+        <item>•</item>
+        <item>Z</item>
+        <item>#</item>
+    </string-array>
+    <attr format="reference" name="colorActionBarBackTitleTextStyle"/>
+    <attr format="reference" name="colorActionBarHintTextLayout"/>
+    <attr format="reference" name="colorActionBarHintTextStyle"/>
+    <attr format="reference|dimension" name="colorActionBarSizeWithSubtitle"/>
+    <attr format="reference" name="colorActionBarSubTitleLayout"/>
+    <attr format="reference" name="colorActionBarSubTitleTextStyle"/>
+    <attr format="boolean" name="colorAddTranslucentDecorBgView"/>
+    <attr format="reference" name="colorBackArrowInverseStyle"/>
+    <attr format="reference|color" name="colorBottomMenuViewBackground"/>
+    <attr format="dimension" name="colorBottomMenuViewSize"/>
+    <attr format="reference" name="colorBottomMenuViewStyle"/>
+    <attr format="reference" name="colorBottomWindowContentOverlay"/>
+    <attr format="reference" name="colorButtonColorfulBlueStyle"/>
+    <attr format="reference" name="colorButtonColorfulDefaultStyle"/>
+    <attr format="reference" name="colorButtonColorfulGreenStyle"/>
+    <attr format="reference" name="colorButtonColorfulLargeStyle"/>
+    <attr format="reference" name="colorButtonColorfulRedStyle"/>
+    <attr format="reference" name="colorButtonColorfulWhiteStyle"/>
+    <attr format="reference" name="colorButtonDeleteStyle"/>
+    <attr format="reference" name="colorButtonDetailStyle"/>
+    <attr format="reference" name="colorButtonNetworkStyle"/>
+    <attr format="reference" name="colorButtonNextStyle"/>
+    <attr format="reference" name="colorButtonStressStyle"/>
+    <attr format="reference" name="colorDivisionSubtitleHeighterStyle"/>
+    <attr format="reference" name="colorDivisionSubtitleStyle"/>
+    <attr format="reference" name="colorEditTextDefaultBackground"/>
+    <attr format="reference" name="colorEditTextWarningBackground"/>
+    <attr format="reference" name="colorHintRedDotStyle"/>
+    <attr format="reference" name="colorInputPreferenceStyle"/>
+    <attr format="reference" name="colorInstallHaveGiftLargeStyle"/>
+    <attr format="reference" name="colorInstallHaveGiftStyle"/>
+    <attr format="reference" name="colorInstallLoadProgressLargeStyle"/>
+    <attr format="reference" name="colorInstallLoadProgressStyle"/>
+    <attr format="reference" name="colorInternetLabelStyle"/>
+    <attr format="reference" name="colorJumpPreferenceStyle"/>
+    <attr format="reference" name="colorLoadProgressStyle"/>
+    <attr format="reference" name="colorLoadingViewLargeStyle"/>
+    <attr format="reference" name="colorLoadingViewMediumStyle"/>
+    <attr format="reference" name="colorLoadingViewRefreshStyle"/>
+    <attr format="reference" name="colorLoadingViewStyle"/>
+    <attr format="reference" name="colorMarkPreferenceStyle"/>
+    <attr format="reference" name="colorNumberPickerStyle"/>
+    <attr format="reference" name="colorScaleProgressBarStyle"/>
+    <attr format="reference" name="colorScrollingTabContainerViewStyle"/>
+    <attr format="reference" name="colorScrollingTabViewStyle"/>
+    <attr format="reference" name="colorScrollingTabViewTextStyle"/>
+    <attr format="reference" name="colorSmallButtonColorStyle"/>
+    <attr format="reference" name="colorSpinnerActivityDialog"/>
+    <attr format="reference" name="colorStepLessSmallStyle"/>
+    <attr format="reference" name="colorStepLesslargeStyle"/>
+    <attr format="reference" name="colorSwitchLoadPreferenceStyle"/>
+    <attr format="reference|color" name="colorTintControlDisabled"/>
+    <attr format="reference|color" name="colorTintControlNormal"/>
+    <attr format="reference|color" name="colorTintControlPressed"/>
+    <attr format="reference" name="colorTranslucentDecorBackground"/>
+    <attr format="reference" name="colorUploadProgressStyle"/>
+    <attr format="reference" name="colorWindowActionBarFullscreenDecorLayout"/>
+    <attr format="reference" name="numberPickerStyle"/>
+    <attr format="reference" name="oppoDatePickerStyle"/>
+    <attr format="reference" name="oppoListViewStyle"/>
+    <attr format="reference" name="oppoTimePickerStyle"/>
+    <attr format="reference" name="oppoTouchSearchViewStyle"/>
+    <attr format="reference" name="oppoWindowContentOverlay"/>
+    <attr format="reference" name="supportDrawerArrowStyle"/>
+    <attr format="dimension" name="supportHeight"/>
+    <attr format="boolean" name="supportIsLightTheme"/>
+    <attr format="string" name="supportTitle"/>
+    <attr format="reference" name="textAppearanceDialogLarge"/>
+    <attr format="reference" name="textAppearanceDialogSmall"/>
+    <attr format="reference" name="textAppearanceSubSmall"/>
+    <bool name="color_config_actionMenuItemAllCaps">false</bool>
+    <bool name="color_switch_show_text">false</bool>
+    <bool name="oppo_actionbar_animatetab_transparent">false</bool>
+    <bool name="support_abc_action_bar_embed_tabs">true</bool>
+    <bool name="support_abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="support_abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="support_abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="support_abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="support_abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="support_abc_split_action_bar_is_narrow">true</bool>
+    <color name="C01">#fffcb7a4</color>
+    <color name="C02">#fffc997e</color>
+    <color name="C03">#ffff7a59</color>
+    <color name="C04">#ffff7a59</color>
+    <color name="C05">#ffff7a59</color>
+    <color name="C06">#ffff674c</color>
+    <color name="C07">#ff82ecbb</color>
+    <color name="C08">#ff5de19f</color>
+    <color name="C09">#ff4ada94</color>
+    <color name="C10">#ff30c67e</color>
+    <color name="C11">#ff14ca6e</color>
+    <color name="C12">#ffffffff</color>
+    <color name="C13">#ffcacaca</color>
+    <color name="C14">#ffbcbcbc</color>
+    <color name="C15">#ffa8a8a8</color>
+    <color name="C16">#ff999999</color>
+    <color name="C17">#ff898989</color>
+    <color name="C18">#ff666666</color>
+    <color name="C19">#ff4d4d4d</color>
+    <color name="C20">#ff363636</color>
+    <color name="C21">#ff000000</color>
+    <color name="C22">#ff3388ff</color>
+    <color name="C23">#ffff5e50</color>
+    <color name="C24">#fff94b39</color>
+    <color name="C25">#ff00925f</color>
+    <color name="C26">#fff2f2f2</color>
+    <color name="C27">#ffe6e6e6</color>
+    <color name="C28">#ffffffff</color>
+    <color name="banner_top_bar_end_color">#ffeeeeee</color>
+    <color name="banner_top_bar_opposite_color">#363636</color>
+    <color name="colorTintControlDisabled">#4d999999</color>
+    <color name="colorTintControlNormal">#ffff7a59</color>
+    <color name="colorTintControlPressed">#4dff7a59</color>
+    <color name="color_actionbar_back_title_text_color_normal">@color/C05</color>
+    <color name="color_actionbar_back_title_text_color_pressed">#116c60</color>
+    <color name="color_actionbar_bottom_tool_tab_button_text_color_disabled">#4d36ae9e</color>
+    <color name="color_actionbar_bottom_tool_tab_button_text_color_normal">#36ae9e</color>
+    <color name="color_actionbar_bottom_tool_tab_button_text_color_pressed">#116c60</color>
+    <color name="color_actionbar_bottom_tool_tab_color_disabled">#ffcfcfcf</color>
+    <color name="color_actionbar_bottom_tool_tab_color_normal">#ff2ac795</color>
+    <color name="color_actionbar_bottom_tool_tab_color_pressed">#4d2ac795</color>
+    <color name="color_actionbar_hint_text_color">@color/C20</color>
+    <color name="color_alert_dialog_content_text_color">#363636</color>
+    <color name="color_btn_colorful_blue_text_disabled_color">#4Dffffff</color>
+    <color name="color_btn_colorful_blue_text_normal_color">#ffffff</color>
+    <color name="color_btn_colorful_blue_text_pressed_color">#ffffff</color>
+    <color name="color_btn_colorful_green_text_disabled_color">#4Dffffff</color>
+    <color name="color_btn_colorful_green_text_normal_color">#ffffff</color>
+    <color name="color_btn_colorful_green_text_pressed_color">#ffffff</color>
+    <color name="color_btn_colorful_red_text_disabled_color">#4Dffffff</color>
+    <color name="color_btn_colorful_red_text_normal_color">#ffffff</color>
+    <color name="color_btn_colorful_red_text_pressed_color">#ffffff</color>
+    <color name="color_btn_default_text_disabled_color">#bababa</color>
+    <color name="color_btn_default_text_normal_color">#898989</color>
+    <color name="color_btn_default_text_pressed_color">#898989</color>
+    <color name="color_btn_stress_text_disabled_color">#bee2de</color>
+    <color name="color_btn_stress_text_normal_color">#36ae9e</color>
+    <color name="color_btn_stress_text_pressed_color">#36ae9e</color>
+    <color name="color_circle_loading_paintcolor">#43D7A8</color>
+    <color name="color_circle_loading_paintcolor_inlist">#c0c0c0</color>
+    <color name="color_clickable_text_color_disabled">#4d1193d4</color>
+    <color name="color_clickable_text_color_normal">#ff1193d4</color>
+    <color name="color_clickable_text_color_pressed">#801193d4</color>
+    <color name="color_cloud_service_text_color">#898989</color>
+    <color name="color_delete_alert_dialog_button_focused_color">#36ae9e</color>
+    <color name="color_delete_alert_dialog_button_normal_color">#363636</color>
+    <color name="color_delete_alert_dialog_button_warning_color">#df5d5d</color>
+    <color name="color_delete_alert_dialog_text_color">#898989</color>
+    <color name="color_dialog_button_text_color_disable">#4d36ae9e</color>
+    <color name="color_dialog_button_text_color_normal">#36ae9e</color>
+    <color name="color_dialog_button_text_color_press">#36ae9e</color>
+    <color name="color_dialog_button_text_fouse_color_normal">#36ae9e</color>
+    <color name="color_edittext_color_hint">#cbcbcb</color>
+    <color name="color_edittext_default_highlighted">#4dff7a59</color>
+    <color name="color_empty_text_color">#898989</color>
+    <color name="color_hint_red_dot_bg_color">#ff4951</color>
+    <color name="color_hint_red_dot_text_color">@color/C12</color>
+    <color name="color_list_overscroll_background_color">#fff2f2f2</color>
+    <color name="color_list_warning_color_disabled">#4ddf5d5d</color>
+    <color name="color_list_warning_color_normal">#ffdf5d5d</color>
+    <color name="color_list_warning_color_pressed">#4ddf5d5d</color>
+    <color name="color_no_content_text_color">#898989</color>
+    <color name="color_no_network_btn_text_color">@color/color_btn_default_text_normal_color</color>
+    <color name="color_preference_focus_textcolor_disabled">#4d36ae9e</color>
+    <color name="color_preference_focus_textcolor_normal">#36ae9e</color>
+    <color name="color_preference_focus_textcolor_pressed">#36ae9e</color>
+    <color name="color_progress_dialog_content_text_color">#363636</color>
+    <color name="color_roundimageview_outcircle_color">#26000000</color>
+    <color name="color_sau_dialog_appinfo_color">@color/C20</color>
+    <color name="color_sau_dialog_description_color">#3fcab8</color>
+    <color name="color_search_src_text_hint_color_disabled">#80bcbcbc</color>
+    <color name="color_search_src_text_hint_color_normal">@color/C14</color>
+    <color name="color_search_view_bg">@color/C12</color>
+    <color name="color_searchview_change_anim_bg_color">#59000000</color>
+    <color name="color_searchview_text_color_normal">@color/C20</color>
+    <color name="color_security_alertdialog_checkbox_color">#aaaaaa</color>
+    <color name="color_security_alertdialog_message_color">#363636</color>
+    <color name="color_slideview_backcolor">#00d7d7d7</color>
+    <color name="color_slideview_copy_background">#fffafafa </color>
+    <color name="color_slideview_delete_background">#fffafafa </color>
+    <color name="color_slideview_delete_divider_color">#ffd8d8d8</color>
+    <color name="color_slideview_rename_background">#ffbfbfbf</color>
+    <color name="color_slideview_textcolor">#FFF9F9F9</color>
+    <color name="color_spiner_background_color">#000000</color>
+    <color name="color_status_bar_color">#ffffffff</color>
+    <color name="color_support_menu_textcolor_normal">@color/C20</color>
+    <color name="color_support_menu_textcolor_select">@color/C20</color>
+    <color name="color_text_cursor_color">#e6ff7a59</color>
+    <color name="color_upload_or_download_paintcolor">@color/C05</color>
+    <color name="oppo_SpinnerItem_text_color">#000000</color>
+    <color name="oppo_action_bar_menu_text_color_disabled">#cccccc</color>
+    <color name="oppo_action_bar_menu_text_color_normal">#36ae9e</color>
+    <color name="oppo_action_bar_menu_text_color_pressed">#116c60</color>
+    <color name="oppo_action_bar_subtitle_text_color">@color/C20</color>
+    <color name="oppo_action_bar_title_text_color">@color/C20</color>
+    <color name="oppo_actionbar_bottom_tab_text_color_normal">#848484</color>
+    <color name="oppo_actionbar_bottom_tab_text_color_pressed">#36ae9e</color>
+    <color name="oppo_actionbar_tab_text_color_selected">@color/C20</color>
+    <color name="oppo_actionbar_tab_text_color_unselected">@color/C17</color>
+    <color name="oppo_alert_dialog_content_text_color">#ff2f2f2f</color>
+    <color name="oppo_alert_dialog_title_text_color">#363636</color>
+    <color name="oppo_autocomplete_text_color">#000000</color>
+    <color name="oppo_compoundbutton_textcolor_disable">#4c999d9c</color>
+    <color name="oppo_compoundbutton_textcolor_nomal">#ff333333</color>
+    <color name="oppo_dialog_button_text_color_disable">#4d2ac795</color>
+    <color name="oppo_dialog_button_text_color_normal">#ff2ac795</color>
+    <color name="oppo_dialog_button_text_color_pressed">#ff2ac795</color>
+    <color name="oppo_dialog_content_text_color_large">#363636</color>
+    <color name="oppo_dialog_content_text_color_small">#898989</color>
+    <color name="oppo_dialog_title_text_color">#363636</color>
+    <color name="oppo_edit_text_color_black">#ffacacac</color>
+    <color name="oppo_edit_text_color_normal">#363636</color>
+    <color name="oppo_edittext_default_highlighted">#c8efe4</color>
+    <color name="oppo_list_large_text_color_normal">#363636</color>
+    <color name="oppo_list_large_text_color_selected">#363636</color>
+    <color name="oppo_list_seletor_color_pressed">#ffe1e1e1</color>
+    <color name="oppo_list_separator_text_color">#000000</color>
+    <color name="oppo_list_small_text_color_normal">#ff898989</color>
+    <color name="oppo_list_small_text_color_selected">#ff898989</color>
+    <color name="oppo_list_text_color_disabled">#66898989</color>
+    <color name="oppo_numberpicker_text_color">#2f2f2f</color>
+    <color name="oppo_numberpicker_text_color_little">#9a9a9a</color>
+    <color name="oppo_pager_title_highligth_text_color">#ff00925f</color>
+    <color name="oppo_pager_title_text_color">#ff333333</color>
+    <color name="oppo_preference_category_text_color">@color/C18</color>
+    <color name="oppo_primary_text_disable_only">#ff141414</color>
+    <color name="oppo_progress_dialog_content_text_color">#363636</color>
+    <color name="oppo_searchview_text_color_normal">#363636</color>
+    <color name="oppo_searchview_text_hint_color_disable">#bababa</color>
+    <color name="oppo_searchview_text_hint_color_normal">#aaaaaa</color>
+    <color name="oppo_subtitle_text_color_inverse">#ffffff</color>
+    <color name="oppo_tab_indicator_textcolor_normal">#000000</color>
+    <color name="oppo_tab_indicator_textcolor_select">#00925f</color>
+    <color name="oppo_text_color_disable">#4C999D9C</color>
+    <color name="oppo_text_color_disabled">#4C999D9C</color>
+    <color name="oppo_textview_content_text_color">#898989</color>
+    <color name="oppo_textview_default_disable">#4C999D9C</color>
+    <color name="oppo_textview_default_normal">#000000</color>
+    <color name="oppo_textview_default_selected">#000000</color>
+    <color name="oppo_textview_title_text_color">#363636</color>
+    <color name="oppo_timepicker_text_color">#ff2f2f2f</color>
+    <color name="oppo_title_button_text_color">#ffffffff</color>
+    <color name="oppo_title_text_color_inverse">#ffffff</color>
+    <color name="oppo_title_text_color_large">#000000</color>
+    <color name="oppo_title_text_color_small">#999D9C</color>
+    <color name="oppo_touchsearch_popupwin_main_textcolor">@color/C12</color>
+    <color name="oppo_touchsearchview_text_disabled_color">#ff2ac795</color>
+    <color name="oppo_touchsearchview_text_normal_color">#ff2ac795</color>
+    <color name="oppo_touchsearchview_text_pressed_color">#4d2ac795</color>
+    <color name="oppo_transparence">#00000000</color>
+    <color name="oppo_window_background_color">#ffffff</color>
+    <color name="resolve_dialog_button_textcolor_normal">#99363636</color>
+    <color name="resolve_dialog_button_textcolor_select">#9936ae9e</color>
+    <color name="resolve_dialog_dot_focus">#3fcab8</color>
+    <color name="resolve_dialog_dot_no_focus">#dbdbdb</color>
+    <color name="resolve_dialog_item_textcolor">#363636</color>
+    <color name="resolve_dialog_select">#10000000</color>
+    <color name="support_abc_input_method_navigation_guard">@android:color/black</color>
+    <color name="support_abc_search_url_text_normal">#7fa87f</color>
+    <color name="support_abc_search_url_text_pressed">@android:color/black</color>
+    <color name="support_abc_search_url_text_selected">@android:color/black</color>
+    <color name="support_accent_material_dark">@color/support_material_deep_teal_200</color>
+    <color name="support_accent_material_light">@color/support_material_deep_teal_500</color>
+    <color name="support_background_floating_material_dark">#ff424242</color>
+    <color name="support_background_floating_material_light">#ffeeeeee</color>
+    <color name="support_background_material_dark">#ff303030</color>
+    <color name="support_background_material_light">#ffeeeeee</color>
+    <color name="support_bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="support_bright_foreground_disabled_material_light">#80000000</color>
+    <color name="support_bright_foreground_material_dark">@android:color/white</color>
+    <color name="support_bright_foreground_material_light">@android:color/black</color>
+    <color name="support_button_material_dark">#ff5a595b</color>
+    <color name="support_button_material_light">#ffd6d7d7</color>
+    <color name="support_circle_bg_light">#FFFAFAFA</color>
+    <color name="support_circle_imageview_fill_shadow_color">#3D000000</color>
+    <color name="support_circle_imageview_key_shadow_color">#1E000000</color>
+    <color name="support_circle_imageview_shadow_color">@android:color/transparent</color>
+    <color name="support_drawerlayout_scrim_color">#99000000</color>
+    <color name="support_highlighted_text_material_dark">#6680cbc4</color>
+    <color name="support_highlighted_text_material_light">#66009688</color>
+    <color name="support_hint_foreground_material_dark">@color/support_bright_foreground_disabled_material_dark</color>
+    <color name="support_hint_foreground_material_light">@color/support_bright_foreground_disabled_material_light</color>
+    <color name="support_link_text_material_dark">@color/support_material_deep_teal_200</color>
+    <color name="support_link_text_material_light">@color/support_material_deep_teal_500</color>
+    <color name="support_material_deep_teal_200">#ff80cbc4</color>
+    <color name="support_material_deep_teal_500">#ff009688</color>
+    <color name="support_primary_dark_material_dark">#ff000000</color>
+    <color name="support_primary_dark_material_light">#ff757575</color>
+    <color name="support_primary_material_dark">#ff212121</color>
+    <color name="support_primary_material_light">#ffefefef</color>
+    <color name="support_primary_text_default_material_dark">#ffffffff</color>
+    <color name="support_primary_text_default_material_light">#de000000</color>
+    <color name="support_primary_text_disabled_material_dark">#4Dffffff</color>
+    <color name="support_primary_text_disabled_material_light">#39000000</color>
+    <color name="support_ripple_material_dark">#4dffffff</color>
+    <color name="support_ripple_material_light">#1f000000</color>
+    <color name="support_secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="support_secondary_text_default_material_light">#8a000000</color>
+    <color name="support_secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="support_secondary_text_disabled_material_light">#24000000</color>
+    <color name="support_sliding_panel_deault_fade_color">#cccccccc</color>
+    <color name="support_swipe_progressbar_color1">#B3000000</color>
+    <color name="support_swipe_progressbar_color2">#80000000</color>
+    <color name="support_swipe_progressbar_color3">#4d000000</color>
+    <color name="support_swipe_progressbar_color4">#1a000000</color>
+    <color name="support_switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="support_switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="support_switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="support_switch_thumb_normal_material_light">#fff1f1f1</color>
+    <declare-styleable name="ActionBar"><attr name="supportNavigationMode">
+            
+            <enum name="normal" value="0"/>
+            
+            <enum name="listMode" value="1"/>
+            
+            <enum name="tabMode" value="2"/>
+        </attr><attr name="supportDisplayOptions">
+            <flag name="none" value="0"/>
+            <flag name="useLogo" value="0x1"/>
+            <flag name="showHome" value="0x2"/>
+            <flag name="homeAsUp" value="0x4"/>
+            <flag name="showTitle" value="0x8"/>
+            <flag name="showCustom" value="0x10"/>
+            <flag name="disableHome" value="0x20"/>
+        </attr><attr name="supportTitle"/><attr format="string" name="supportSubtitle"/><attr format="reference" name="supportTitleTextStyle"/><attr format="reference" name="supportSubtitleTextStyle"/><attr format="reference" name="supportIcon"/><attr format="reference" name="supportLogo"/><attr format="reference" name="supportDivider"/><attr format="reference" name="supportBackground"/><attr format="reference|color" name="supportBackgroundStacked"/><attr format="reference|color" name="supportBackgroundSplit"/><attr format="reference" name="supportCustomNavigationLayout"/><attr name="supportHeight"/><attr format="reference" name="supportHomeLayout"/><attr format="reference" name="supportProgressBarStyle"/><attr format="reference" name="supportIndeterminateProgressStyle"/><attr format="dimension" name="supportProgressBarPadding"/><attr name="supportHomeAsUpIndicator"/><attr format="dimension" name="supportItemPadding"/><attr format="boolean" name="supportHideOnContentScroll"/><attr format="dimension" name="supportContentInsetStart"/><attr format="dimension" name="supportContentInsetEnd"/><attr format="dimension" name="supportContentInsetLeft"/><attr format="dimension" name="supportContentInsetRight"/><attr format="dimension" name="supportElevation"/><attr format="reference" name="supportPopupTheme"/></declare-styleable>
+    <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
+    <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
+    <declare-styleable name="ActionMenuView"/>
+    <declare-styleable name="ActionMode"><attr name="supportTitleTextStyle"/><attr name="supportSubtitleTextStyle"/><attr name="supportBackground"/><attr name="supportBackgroundSplit"/><attr name="supportHeight"/><attr format="reference" name="supportCloseItemLayout"/></declare-styleable>
+    <declare-styleable name="ActivityChooserView"><attr format="string" name="supportInitialActivityCount"/><attr format="reference" name="supportExpandActivityOverflowButtonDrawable"/></declare-styleable>
+    <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="supportButtonPanelSideLayout"/><attr format="reference" name="supportListLayout"/><attr format="reference" name="supportMultiChoiceItemLayout"/><attr format="reference" name="supportSingleChoiceItemLayout"/><attr format="reference" name="supportListItemLayout"/></declare-styleable>
+    <declare-styleable name="AppCompatTextView"><attr format="reference|boolean" name="supportTextAllCaps"/><attr name="android:textAppearance"/></declare-styleable>
+    <declare-styleable name="ColorActivityDialogSpinner"><attr name="android:prompt"/><attr name="android:entries"/></declare-styleable>
+    <declare-styleable name="ColorAlertDialog"><attr format="reference" name="colorProgressLayout"/><attr name="colorWindowGravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr><attr format="dimension" name="colorWindowLayoutWidth">
+            
+            <enum name="fill_parent" value="-1"/>
+            
+            <enum name="match_parent" value="-1"/>
+            
+            <enum name="wrap_content" value="-2"/>
+        </attr><attr format="dimension" name="colorWindowLayoutHeight">
+            
+            <enum name="fill_parent" value="-1"/>
+            
+            <enum name="match_parent" value="-1"/>
+            
+            <enum name="wrap_content" value="-2"/>
+        </attr><attr format="reference" name="colorDeleteDialogListBottom"/><attr format="reference" name="colorDeleteDialogListTop"/><attr format="reference" name="colorDeleteDialogListMiddle"/><attr format="reference" name="colorDeleteDialogTopNoDivider"/><attr format="reference" name="colorDeleteDialogTop"/><attr format="reference" name="colorDeleteDialogMiddle"/><attr format="reference" name="colorDeleteDialogBottom"/><attr format="reference" name="colorDeleteDialogDefault"/><attr format="reference" name="colorDialogBtnLeft"/><attr format="reference" name="colorDialogBtnRight"/><attr format="reference" name="colorDialogVerticalMiddle"/><attr format="reference" name="colorDialogVerticalBottom"/><attr format="reference" name="colorDialogFocusTextColor"/><attr format="reference" name="colorDialogWarningTextColor"/></declare-styleable>
+    <declare-styleable name="ColorBottomMenuView"><attr format="dimension" name="colorItemTextSize"/><attr format="color" name="colorItemTextColor"/><attr format="dimension" name="colorTabButtonTextSize"/><attr format="color" name="colorTabButtonTextColor"/><attr format="color" name="colorToolTabTextColor"/><attr format="dimension" name="colorBackgroundHeight"/><attr format="reference" name="colorActionBarTabBackground"/><attr format="dimension" name="colorIconItemMarginTop"/></declare-styleable>
+    <declare-styleable name="ColorDatePicker"><attr format="integer" name="beginYear"/><attr format="integer" name="endYear"/><attr format="boolean" name="spinnerShown"/><attr format="boolean" name="calendarViewShown"/><attr format="string" name="minDate"/><attr format="string" name="maxDate"/><attr format="reference" name="internalLayout"/><attr format="color|reference" name="dayOfWeekBackground"/><attr format="reference" name="dayOfWeekTextAppearance"/><attr format="reference" name="headerMonthTextAppearance"/><attr format="reference" name="headerDayOfMonthTextAppearance"/><attr format="reference" name="headerYearTextAppearance"/><attr format="reference" name="yearListItemTextAppearance"/><attr format="color" name="yearListSelectorColor"/><attr format="color" name="calendarTextColor"/><attr format="color" name="calendarSelectedTextColor"/><attr name="datePickerMode">
+            <enum name="spinner" value="1"/>
+            <enum name="calendar" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ColorDivisionSubtitle"><attr format="integer" name="colorDivisionSubtitleType"/></declare-styleable>
+    <declare-styleable name="ColorEditText"><attr format="boolean" name="quickDelete"/></declare-styleable>
+    <declare-styleable name="ColorHintRedDot"><attr format="reference|color" name="colorHintRedDotColor"/><attr format="reference|color" name="colorHintRedDotTextColor"/><attr format="dimension" name="colorSmallTextSize"/><attr format="dimension" name="colorLargeTextSize"/><attr format="integer" name="colorHintRedDotType">
+            <enum name="smallCircle" value="0"/>
+            <enum name="middleCircle" value="1"/>
+            <enum name="largeCircle" value="2"/>
+            <enum name="largerCircle" value="3"/>
+            <enum name="smallOval" value="4"/>
+            <enum name="largeOval" value="5"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ColorInputPreference"><attr format="string" name="colorContent"/><attr format="string" name="colorHint"/><attr format="boolean" name="colorNoDivider"/></declare-styleable>
+    <declare-styleable name="ColorInstallLoadProgress"><attr format="string" name="colorInstallTextview"/><attr format="dimension" name="colorInstallTextsize"/><attr format="reference" name="colorInstallLoadBg"/><attr format="reference" name="colorInstallLoadProgress"/><attr format="reference" name="colorInstallFailBg"/><attr format="reference" name="colorInstallGiftBg"/><attr format="dimension" name="colorInstallViewHeight"/><attr format="dimension" name="colorInstallViewWidth"/><attr format="dimension" name="colorInstallPadding"/><attr format="color" name="colorInstallDefaultColor"/></declare-styleable>
+    <declare-styleable name="ColorInternetLabel"><attr format="dimension" name="colorButtonTextSize"/><attr format="color" name="colorButtonTextColor"/><attr format="reference" name="colorWhiteButton"/></declare-styleable>
+    <declare-styleable name="ColorJumpPreference"><attr format="reference" name="color_jump_mark"/><attr format="string" name="color_jump_status1"/><attr format="string" name="color_jump_status2"/><attr format="string" name="color_jump_status3"/><attr name="colorClickStyle">
+            <enum name="nomal" value="0"/>
+            <enum name="click" value="1"/>
+            <enum name="unclick" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ColorListView"><attr format="dimension" name="item_normal_height"/><attr format="dimension" name="item_expand_height"/><attr format="reference|color" name="dragdrop_background"/><attr format="boolean" name="collapsEnabled"/><attr format="boolean" name="fillDivider"/><attr format="integer" name="dividerItemHeight"/><attr format="boolean" name="springEnabled"/><attr format="boolean" name="crossEnabled"/><attr format="color" name="oddItemColor"/><attr format="color" name="evenItemColor"/></declare-styleable>
+    <declare-styleable name="ColorLoadProgress"><attr format="reference" name="colorDefaultDrawable"/><attr name="colorState">
+            <enum name="defualtUpOrDown" value="0"/>
+            <enum name="upingOrDowning" value="1"/>
+            <enum name="waitUpOrDown" value="2"/>
+            <enum name="failUpOrDown" value="3"/>
+            <enum name="installGift" value="4"/>
+        </attr><attr format="integer" name="colorProgress"/><attr format="boolean" name="color_state_default"/><attr format="boolean" name="color_state_ing"/><attr format="boolean" name="color_state_wait"/><attr format="boolean" name="color_state_fail"/></declare-styleable>
+    <declare-styleable name="ColorMarkPreference"><attr name="colorMarkStyle">
+            <enum name="tail" value="0"/>
+            <enum name="head" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ColorMenuItem"><attr name="colorWarningPointMode">
+            <enum name="noPoint" value="0"/>
+            <enum name="ponitOnly" value="1"/>
+            <enum name="pointWithNum" value="2"/>
+        </attr><attr format="integer" name="colorWarningPointNum"/></declare-styleable>
+    <declare-styleable name="ColorNumberPicker"><attr format="reference" name="selectionDivider"/><attr format="dimension" name="selectionDividerHeight"/><attr format="dimension" name="internalMinHeight"/><attr format="dimension" name="internalMaxHeight"/><attr format="dimension" name="internalMinWidth"/><attr format="dimension" name="internalMaxWidth"/><attr format="dimension" name="numberTextSize"/><attr format="dimension" name="offsetHeight"/><attr format="dimension" name="clipLength"/><attr format="dimension" name="endTextSize"/><attr format="dimension" name="startTextSize"/><attr format="dimension" name="focusTextSize"/><attr format="integer" name="colorPickerRowNumber"/><attr format="boolean" name="isBold"/><attr format="dimension" name="colorPickerVisualWidth"/><attr name="colorPickerAlignPosition">
+            <enum name="middle" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr><attr format="color|reference" name="colorNormalTextColor"/><attr format="color|reference" name="colorFocusTextColor"/><attr format="dimension" name="colorNOPickerPaddingLeft"/><attr format="dimension" name="colorNOPickerPaddingRight"/></declare-styleable>
+    <declare-styleable name="ColorPreference"><attr name="colorPreferencePosition">
+            <enum name="head" value="0"/>
+            <enum name="middle" value="1"/>
+            <enum name="tail" value="2"/>
+            <enum name="full" value="3"/>
+        </attr><attr format="boolean" name="colorShowDivider"/><attr format="boolean" name="colorIsGroupMode"/><attr format="reference" name="colorDividerDrawable"/></declare-styleable>
+    <declare-styleable name="ColorRoundImageView"><attr format="dimension" name="colorBorderRadius"/><attr name="colorType">
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="shadow" value="2"/>
+        </attr><attr format="boolean" name="colorHasBorder"/><attr format="boolean" name="colorHasDefaultPic"/></declare-styleable>
+    <declare-styleable name="ColorScaleProgressBar"><attr format="reference" name="colorDefaultProgress"/><attr format="reference" name="colorCutDrawable"/><attr format="reference" name="colorThumbDrawable"/><attr format="dimension" name="colorViewHeight"/><attr format="dimension" name="colorViewWidth"/><attr name="colorProgressType">
+            <enum name="scale" value="0"/>
+            <enum name="stepLess" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ColorScrollingTabContainerView"><attr format="reference" name="scrollingTabBackground"/><attr format="reference" name="moveTab"/><attr format="reference" name="headSelected"/><attr format="reference" name="middleSelected"/><attr format="reference" name="tailSelected"/><attr format="reference" name="afterSelected"/><attr format="reference" name="beforeSelected"/><attr format="reference" name="nomalUnselected"/><attr format="dimension" name="animateTabOutLength"/><attr format="dimension" name="animateTabOffset"/><attr format="dimension" name="animateTabTextSize"/><attr format="reference|color" name="animateTabTextColor"/><attr format="boolean" name="animateTabTextTransparent"/><attr format="boolean" name="colorCustomSelected"/></declare-styleable>
+    <declare-styleable name="ColorScrollingTabView"><attr format="reference" name="colorScrollingTabViewBackground"/><attr format="dimension" name="colorScrollingTabViewHeight"/><attr format="dimension" name="colorScrollingTabViewFocusLineHeight"/><attr format="reference|color" name="colorScrollingTabViewFocusLineColor"/></declare-styleable>
+    <declare-styleable name="ColorSpinner"><attr name="android:dropDownHeight"/><attr format="reference" name="colorExpandIcon"/><attr format="reference|dimension" name="colorExpandIconMargin"/></declare-styleable>
+    <declare-styleable name="DrawerArrowToggle"><attr format="color" name="supportColor"/><attr format="boolean" name="supportSpinBars"/><attr format="dimension" name="supportDrawableSize"/><attr format="dimension" name="supportGapBetweenBars"/><attr format="dimension" name="supportTopBottomBarArrowSize"/><attr format="dimension" name="supportMiddleBarArrowSize"/><attr format="dimension" name="supportBarSize"/><attr format="dimension" name="supportThickness"/></declare-styleable>
+    <declare-styleable name="IconStates"><attr format="boolean" name="state_pressed"/><attr format="boolean" name="state_window_focused"/><attr format="boolean" name="state_enabled"/></declare-styleable>
+    <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="supportMeasureWithLargestChild"/><attr name="supportDivider"/><attr name="supportShowDividers">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr><attr format="dimension" name="supportDividerPadding"/></declare-styleable>
+    <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
+    <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
+    <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
+    <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="supportShowAsAction">
+            
+            <flag name="never" value="0"/>
+            
+            <flag name="ifRoom" value="1"/>
+            
+            <flag name="always" value="2"/>
+            
+            <flag name="withText" value="4"/>
+            
+            <flag name="collapseActionView" value="8"/>
+        </attr><attr format="reference" name="supportActionLayout"/><attr format="string" name="supportActionViewClass"/><attr format="string" name="supportActionProviderClass"/></declare-styleable>
+    <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="supportPreserveIconSpacing"/></declare-styleable>
+    <declare-styleable name="NumberPicker"><attr format="color|reference" name="solidColor"/></declare-styleable>
+    <declare-styleable name="OppoTheme"><attr format="boolean" name="isOppoTheme"/><attr format="reference" name="oppoEmptyHint"/><attr format="boolean" name="colorIsSplitActionBarOverlay"/><attr format="boolean" name="colorIsSplitHideWithActionBar"/></declare-styleable>
+    <declare-styleable name="OppoTouchSearchView"><attr format="reference|color" name="oppoKeyBackground"/><attr format="integer" name="oppoBackgroundAlignMode">
+            <enum name="middle" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr><attr format="dimension" name="oppoMarginRigh"/><attr format="dimension" name="oppoMarginLeft"/><attr format="boolean" name="oppoUnionEnable"/><attr format="dimension" name="oppoPopupWinWidth"/><attr format="dimension" name="oppoPopupWinHeight"/><attr format="integer" name="oppoPopupWinMinTop"/><attr format="dimension" name="oppoPopupWinTextSize"/><attr format="reference|color" name="oppoPopupWinTextColor"/><attr format="reference|color" name="oppoKeyCollect"/><attr format="reference|color" name="oppoTouchWell"/><attr format="dimension" name="oppoKeyTextSize"/><attr format="reference|color" name="oppoKeyTextColor"/><attr format="boolean" name="oppoFirstIsCharacter"/></declare-styleable>
+    <declare-styleable name="PagePointView"><attr format="dimension" name="internalspace_between_point"/><attr format="dimension" name="pointWidth"/><attr format="dimension" name="pointHeight"/></declare-styleable>
+    <declare-styleable name="PopupWindow"><attr format="boolean" name="supportOverlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
+    <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="supportState_above_anchor"/></declare-styleable>
+    <declare-styleable name="PopupWindowCompat"><attr format="dimension" name="supportPopupElevation"/><attr name="android:popupAnimationStyle"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="RotateDrawable"><attr name="android:visible"/><attr name="android:fromDegrees"/><attr name="android:toDegrees"/><attr name="android:pivotX"/><attr name="android:pivotY"/><attr name="android:drawable"/></declare-styleable>
+    <declare-styleable name="ScaleDrawable"><attr name="android:drawable"/></declare-styleable>
+    <declare-styleable name="SearchView"><attr format="reference" name="supportLayout"/><attr format="boolean" name="supportIconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="supportQueryHint"/><attr format="string" name="supportDefaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="supportCloseIcon"/><attr format="reference" name="supportGoIcon"/><attr format="reference" name="supportSearchIcon"/><attr format="reference" name="supportSearchHintIcon"/><attr format="reference" name="supportVoiceIcon"/><attr format="reference" name="supportCommitIcon"/><attr format="reference" name="supportSuggestionRowLayout"/><attr format="reference" name="supportQueryBackground"/><attr format="reference" name="supportSubmitBackground"/><attr format="reference" name="supportSearchIamgeBg"/><attr format="boolean" name="supportSearchIamgeVi"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="Spinner"><attr format="reference" name="supportPrompt"/><attr format="enum" name="supportSpinnerMode">
+            
+            <enum name="dialog" value="0"/>
+            
+            <enum name="dropdown" value="1"/>
+        </attr><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr format="reference" name="supportPopupPromptView"/><attr name="android:gravity"/><attr format="boolean" name="supportDisableChildrenWhenDisabled"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="reference" name="supportTrack"/><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="supportThumbTextPadding"/><attr format="reference" name="supportSwitchTextAppearance"/><attr format="dimension" name="supportSwitchMinWidth"/><attr format="dimension" name="supportSwitchPadding"/><attr format="boolean" name="supportSplitTrack"/><attr format="boolean" name="supportShowText"/></declare-styleable>
+    <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="supportTextAllCaps"/></declare-styleable>
+    <declare-styleable name="TextView"><attr name="android:selectAllOnFocus"/></declare-styleable>
+    <declare-styleable name="Theme"><attr format="boolean" name="supportWindowActionBar"/><attr format="boolean" name="supportWindowNoTitle"/><attr format="boolean" name="supportWindowActionBarOverlay"/><attr format="boolean" name="supportWindowActionModeOverlay"/><attr format="dimension|fraction" name="supportWindowFixedWidthMajor"/><attr format="dimension|fraction" name="supportWindowFixedHeightMinor"/><attr format="dimension|fraction" name="supportWndowFixedWidthMinor"/><attr format="dimension|fraction" name="supportWindowFixedHeightMajor"/><attr format="dimension|fraction" name="supportWindowMinWidthMajor"/><attr format="dimension|fraction" name="supportWindowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="supportActionBarTabStyle"/><attr format="reference" name="supportActionBarTabBarStyle"/><attr format="reference" name="supportActionBarTabTextStyle"/><attr format="reference" name="supportActionOverflowButtonStyle"/><attr format="reference" name="supportActionOverflowMenuStyle"/><attr format="reference" name="supportActionBarPopupTheme"/><attr format="reference" name="supportActionBarStyle"/><attr format="reference" name="supportActionBarSplitStyle"/><attr format="reference" name="supportActionBarTheme"/><attr format="reference" name="supportActionBarWidgetTheme"/><attr format="dimension" name="supportActionBarSize">
+            <enum name="wrap_content" value="0"/>
+        </attr><attr format="reference" name="supportActionBarDivider"/><attr format="reference" name="supportActionBarItemBackground"/><attr format="reference" name="supportActionMenuTextAppearance"/><attr format="color|reference" name="supportActionMenuTextColor"/><attr format="reference" name="supportActionModeStyle"/><attr format="reference" name="supportActionModeCloseButtonStyle"/><attr format="reference" name="supportActionModeBackground"/><attr format="reference" name="supportActionModeSplitBackground"/><attr format="reference" name="supportActionModeCloseDrawable"/><attr format="reference" name="supportActionModeCutDrawable"/><attr format="reference" name="supportActionModeCopyDrawable"/><attr format="reference" name="supportActionModePasteDrawable"/><attr format="reference" name="supportActionModeSelectAllDrawable"/><attr format="reference" name="supportActionModeShareDrawable"/><attr format="reference" name="supportActionModeFindDrawable"/><attr format="reference" name="supportActionModeWebSearchDrawable"/><attr format="reference" name="supportActionModePopupWindowStyle"/><attr format="reference" name="supportTextAppearanceLargePopupMenu"/><attr format="reference" name="supportTextAppearanceSmallPopupMenu"/><attr format="reference" name="supportDialogTheme"/><attr format="dimension" name="supportDialogPreferredPadding"/><attr format="reference" name="supportListDividerAlertDialog"/><attr format="reference" name="supportActionDropDownStyle"/><attr format="dimension" name="supportDropdownListPreferredItemHeight"/><attr format="reference" name="supportSpinnerDropDownItemStyle"/><attr format="reference" name="supportHomeAsUpIndicator"/><attr format="reference" name="supportActionButtonStyle"/><attr format="reference" name="supportButtonBarStyle"/><attr format="reference" name="supportButtonBarButtonStyle"/><attr format="reference" name="supportSelectableItemBackground"/><attr format="reference" name="supportSelectableItemBackgroundBorderless"/><attr format="reference" name="supportBorderlessButtonStyle"/><attr format="reference" name="supportDividerVertical"/><attr format="reference" name="supportDividerHorizontal"/><attr format="reference" name="supportActivityChooserViewStyle"/><attr format="reference" name="supportToolbarStyle"/><attr format="reference" name="supportToolbarNavigationButtonStyle"/><attr format="reference" name="supportPopupMenuStyle"/><attr format="reference" name="supportPopupWindowStyle"/><attr format="reference|color" name="supportEditTextColor"/><attr format="reference" name="supportEditTextBackground"/><attr format="reference" name="supportTextAppearanceSearchResultTitle"/><attr format="reference" name="supportTextAppearanceSearchResultSubtitle"/><attr format="reference|color" name="supportTextColorSearchUrl"/><attr format="reference" name="supportSearchViewStyle"/><attr format="dimension" name="supportListPreferredItemHeight"/><attr format="dimension" name="supportListPreferredItemHeightSmall"/><attr format="dimension" name="supportListPreferredItemHeightLarge"/><attr format="dimension" name="supportListPreferredItemPaddingLeft"/><attr format="dimension" name="supportListPreferredItemPaddingRight"/><attr format="reference" name="supportDropDownListViewStyle"/><attr format="reference" name="supportListPopupWindowStyle"/><attr format="reference" name="supportTextAppearanceListItem"/><attr format="reference" name="supportTextAppearanceListItemSmall"/><attr format="reference" name="supportPanelBackground"/><attr format="dimension" name="supportPanelMenuListWidth"/><attr format="reference" name="supportPanelMenuListTheme"/><attr format="reference" name="supportListChoiceBackgroundIndicator"/><attr format="color" name="supportColorPrimary"/><attr format="color" name="supportColorPrimaryDark"/><attr format="color" name="supportColorAccent"/><attr format="color" name="supportColorControlNormal"/><attr format="color" name="supportColorControlActivated"/><attr format="color" name="supportColorControlHighlight"/><attr format="color" name="supportColorButtonNormal"/><attr format="color" name="supportColorSwitchThumbNormal"/><attr format="reference" name="supportAlertDialogStyle"/><attr format="reference" name="supportAlertDialogButtonGroupStyle"/><attr format="boolean" name="supportAlertDialogCenterButtons"/><attr format="reference" name="supportAlertDialogTheme"/><attr format="reference|color" name="supportTextColorAlertDialogListItem"/><attr format="reference" name="supportButtonBarPositiveButtonStyle"/><attr format="reference" name="supportButtonBarNegativeButtonStyle"/><attr format="reference" name="supportButtonBarNeutralButtonStyle"/><attr format="reference" name="supportAutoCompleteTextViewStyle"/><attr format="reference" name="supportButtonStyle"/><attr format="reference" name="supportButtonStyleSmall"/><attr format="reference" name="supportCheckboxStyle"/><attr format="reference" name="supportCheckedTextViewStyle"/><attr format="reference" name="supportEditTextStyle"/><attr format="reference" name="supportRadioButtonStyle"/><attr format="reference" name="supportRatingBarStyle"/><attr format="reference" name="supportSpinnerStyle"/><attr format="reference" name="supportSwitchStyle"/></declare-styleable>
+    <declare-styleable name="TimePicker"/>
+    <declare-styleable name="Toolbar"><attr format="reference" name="supportTitleTextAppearance"/><attr format="reference" name="supportSubtitleTextAppearance"/><attr name="supportTitle"/><attr name="supportSubtitle"/><attr name="android:gravity"/><attr format="dimension" name="supportTitleMargins"/><attr format="dimension" name="supportTitleMarginStart"/><attr format="dimension" name="supportTitleMarginEnd"/><attr format="dimension" name="supportTitleMarginTop"/><attr format="dimension" name="supportTitleMarginBottom"/><attr name="supportContentInsetStart"/><attr name="supportContentInsetEnd"/><attr name="supportContentInsetLeft"/><attr name="supportContentInsetRight"/><attr format="dimension" name="supportMaxButtonHeight"/><attr format="reference" name="supportCollapseIcon"/><attr format="string" name="supportCollapseContentDescription"/><attr name="supportPopupTheme"/><attr format="reference" name="supportNavigationIcon"/><attr format="string" name="supportNavigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
+    <declare-styleable name="View"><attr format="dimension" name="supportPaddingStart"/><attr format="dimension" name="supportPaddingEnd"/><attr name="android:focusable"/><attr format="reference" name="supportTheme"/><attr name="android:theme"/><attr format="color" name="supportBackgroundTint"/><attr name="supportBackgroundTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ViewDrawableStates"><attr name="android:state_pressed"/><attr name="android:state_focused"/><attr name="android:state_selected"/><attr name="android:state_window_focused"/><attr name="android:state_enabled"/><attr name="android:state_activated"/><attr name="android:state_accelerated"/><attr name="android:state_hovered"/><attr name="android:state_drag_can_accept"/><attr name="android:state_drag_hovered"/></declare-styleable>
+    <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
+    <declare-styleable name="Window"><attr name="android:backgroundDimAmount"/></declare-styleable>
+    <declare-styleable name="colorLoadingView"><attr format="dimension" name="colorLoadingViewWidth"/><attr format="dimension" name="colorLoadingViewHeight"/><attr format="reference|color" name="colorLoadingViewColor"/><attr name="colorLoadingViewType">
+            <enum name="small" value="0"/>
+            <enum name="medium" value="1"/>
+            <enum name="large" value="2"/>
+        </attr></declare-styleable>
+    <dimen name="M1">1dp</dimen>
+    <dimen name="M10">24dp</dimen>
+    <dimen name="M11">10dp</dimen>
+    <dimen name="M12">54dp</dimen>
+    <dimen name="M13">62dp</dimen>
+    <dimen name="M14">72dp</dimen>
+    <dimen name="M15">11dp</dimen>
+    <dimen name="M2">3dp</dimen>
+    <dimen name="M3">6dp</dimen>
+    <dimen name="M4">8dp</dimen>
+    <dimen name="M5">12dp</dimen>
+    <dimen name="M6">14dp</dimen>
+    <dimen name="M7">16dp</dimen>
+    <dimen name="M8">18dp</dimen>
+    <dimen name="M9">20dp</dimen>
+    <dimen name="TD01">8sp</dimen>
+    <dimen name="TD02">9sp</dimen>
+    <dimen name="TD03">10sp</dimen>
+    <dimen name="TD04">11sp</dimen>
+    <dimen name="TD05">12sp</dimen>
+    <dimen name="TD06">13sp</dimen>
+    <dimen name="TD07">14sp</dimen>
+    <dimen name="TD08">15sp</dimen>
+    <dimen name="TD09">16sp</dimen>
+    <dimen name="TD10">17sp</dimen>
+    <dimen name="TD11">18sp</dimen>
+    <dimen name="TD12">19sp</dimen>
+    <dimen name="TD13">20sp</dimen>
+    <dimen name="TD14">22sp</dimen>
+    <dimen name="TD15">25sp</dimen>
+    <dimen name="TD16">27sp</dimen>
+    <dimen name="TD17">30sp</dimen>
+    <dimen name="TD18">35sp</dimen>
+    <dimen name="TD19">38sp</dimen>
+    <dimen name="TD20">40sp</dimen>
+    <dimen name="TD21">50sp</dimen>
+    <dimen name="TD22">60sp</dimen>
+    <dimen name="TD23">64sp</dimen>
+    <dimen name="TD24">67sp</dimen>
+    <dimen name="TD25">70sp</dimen>
+    <dimen name="TD26">80sp</dimen>
+    <dimen name="TD27">100sp</dimen>
+    <dimen name="TD28">21sp</dimen>
+    <dimen name="TD29">24sp</dimen>
+    <dimen name="TD30">28sp</dimen>
+    <dimen name="TD31">37sp</dimen>
+    <dimen name="TD32">44dp</dimen>
+    <dimen name="TD33">53sp</dimen>
+    <dimen name="TD34">57sp</dimen>
+    <dimen name="TF01">8dp</dimen>
+    <dimen name="TF02">9dp</dimen>
+    <dimen name="TF03">10dp</dimen>
+    <dimen name="TF04">11dp</dimen>
+    <dimen name="TF05">12dp</dimen>
+    <dimen name="TF06">13dp</dimen>
+    <dimen name="TF07">14dp</dimen>
+    <dimen name="TF08">15dp</dimen>
+    <dimen name="TF09">16dp</dimen>
+    <dimen name="TF10">17dp</dimen>
+    <dimen name="TF11">18dp</dimen>
+    <dimen name="TF12">19dp</dimen>
+    <dimen name="TF13">20dp</dimen>
+    <dimen name="TF14">22dp</dimen>
+    <dimen name="TF15">25dp</dimen>
+    <dimen name="TF16">27dp</dimen>
+    <dimen name="TF17">30dp</dimen>
+    <dimen name="TF18">35dp</dimen>
+    <dimen name="TF19">38dp</dimen>
+    <dimen name="TF20">40dp</dimen>
+    <dimen name="TF21">50dp</dimen>
+    <dimen name="TF22">60dp</dimen>
+    <dimen name="TF23">64dp</dimen>
+    <dimen name="TF24">67dp</dimen>
+    <dimen name="TF25">70dp</dimen>
+    <dimen name="TF26">80dp</dimen>
+    <dimen name="TF27">100dp</dimen>
+    <dimen name="TF28">21dp</dimen>
+    <dimen name="TF29">24dp</dimen>
+    <dimen name="TF30">28dp</dimen>
+    <dimen name="TF31">37dp</dimen>
+    <dimen name="TF32">44dp</dimen>
+    <dimen name="TF33">53dp</dimen>
+    <dimen name="TF34">57dp</dimen>
+    <dimen name="android_preference_switch_margin_left">0dip</dimen>
+    <dimen name="android_preference_switch_margin_right">-4dip</dimen>
+    <dimen name="android_status_bar_height">18dp</dimen>
+    <dimen name="banner_height_default">198dp</dimen>
+    <dimen name="color_actionbar_back_title_text_size">@dimen/TD08</dimen>
+    <dimen name="color_actionbar_bottom_tab_offsetx">6dip</dimen>
+    <dimen name="color_actionbar_doubleline_height">58dp</dimen>
+    <dimen name="color_actionbar_hint_text_margin_top">@dimen/M4</dimen>
+    <dimen name="color_actionbar_hint_text_padding">76dp</dimen>
+    <dimen name="color_actionbar_hint_text_size">@dimen/TD05</dimen>
+    <dimen name="color_actionbar_menuitemview_item_spacing">@dimen/M6</dimen>
+    <dimen name="color_actionbar_menuitemview_padding_horizontal">0dip</dimen>
+    <dimen name="color_actionbar_menuitemview_padding_vertical">0dip</dimen>
+    <dimen name="color_actionbar_menuview_padding">@dimen/M7</dimen>
+    <dimen name="color_actionbar_progressbar_margin_right">18dip</dimen>
+    <dimen name="color_actionbar_spinner_expandicon_margin">0dp</dimen>
+    <dimen name="color_actionbar_stacked_tab_bar_height">34dp</dimen>
+    <dimen name="color_actionbar_subtitle_margin_bottom">7dp</dimen>
+    <dimen name="color_actionbar_tab_text_max_width">67dip</dimen>
+    <dimen name="color_actionbar_tab_view_margin">15dip</dimen>
+    <dimen name="color_actionbar_tab_view_max_width">99dip</dimen>
+    <dimen name="color_actionbar_tabscrollview_max_width">270dip</dimen>
+    <dimen name="color_actionbar_title_padding">@dimen/M6</dimen>
+    <dimen name="color_actionbar_title_with_subtitle_height">48dp</dimen>
+    <dimen name="color_alert_dialog_button_padding">0dp</dimen>
+    <dimen name="color_alert_dialog_button_panel_padding_top">14dip</dimen>
+    <dimen name="color_alert_dialog_checkbox_margin_left">@dimen/M9</dimen>
+    <dimen name="color_alert_dialog_checkbox_margin_top">@dimen/M5</dimen>
+    <dimen name="color_alert_dialog_content_panel_padding_bottom">@dimen/M10</dimen>
+    <dimen name="color_alert_dialog_content_panel_padding_top">0dp</dimen>
+    <dimen name="color_alert_dialog_editext_margin">@dimen/M5</dimen>
+    <dimen name="color_alert_dialog_editext_padding_bottom">@dimen/M10</dimen>
+    <dimen name="color_alert_dialog_large_small_text_margin">@dimen/M5</dimen>
+    <dimen name="color_alert_dialog_large_text_margin">@dimen/M4</dimen>
+    <dimen name="color_alert_dialog_multi_button_padding">0dp</dimen>
+    <dimen name="color_alert_dialog_single_button_padding">0dp</dimen>
+    <dimen name="color_alert_dialog_small_text_margin">@dimen/M3</dimen>
+    <dimen name="color_alert_dialog_top_panel_padding_bottom">@dimen/M8</dimen>
+    <dimen name="color_alert_dialog_top_panel_padding_top">@dimen/M8</dimen>
+    <dimen name="color_blank_page_btn_margin_top">11dip</dimen>
+    <dimen name="color_blank_page_height">110dip</dimen>
+    <dimen name="color_blank_page_horizontal_padding">18dip</dimen>
+    <dimen name="color_bottom_bar_install_progress_width">228dp</dimen>
+    <dimen name="color_bottom_bar_left_small_button_margin_left">0dp</dimen>
+    <dimen name="color_bottom_bar_left_small_button_margin_right">@dimen/M9</dimen>
+    <dimen name="color_bottom_bar_multi_button_padding">48dp</dimen>
+    <dimen name="color_bottom_bar_panel_height">54dip</dimen>
+    <dimen name="color_bottom_bar_panel_paddingleft">@dimen/M8</dimen>
+    <dimen name="color_bottom_bar_panel_paddingright">@dimen/M8</dimen>
+    <dimen name="color_bottom_bar_right_button_margin_left">@dimen/M5</dimen>
+    <dimen name="color_bottom_bar_right_small_button_margin_left">@dimen/M9</dimen>
+    <dimen name="color_bottom_bar_right_small_button_margin_right">0dp</dimen>
+    <dimen name="color_bottom_bar_single_button_padding">48dp</dimen>
+    <dimen name="color_bottom_bar_single_button_with_icon_padding">0dp</dimen>
+    <dimen name="color_bottom_bar_view_button_height">36dp</dimen>
+    <dimen name="color_bottom_bar_view_button_width">0dp</dimen>
+    <dimen name="color_bottom_bar_view_width">155dp</dimen>
+    <dimen name="color_bottom_menuview_max_icon_size">28dp</dimen>
+    <dimen name="color_bottom_menuview_max_text_width">68dp</dimen>
+    <dimen name="color_bottom_menuview_text_padding">2dp</dimen>
+    <dimen name="color_btn_colorful_min_height">35dip</dimen>
+    <dimen name="color_btn_colorful_text_size">@dimen/color_font_size_12</dimen>
+    <dimen name="color_circle_loading_large_strokewidth">2dip</dimen>
+    <dimen name="color_circle_loading_strokewidth">1dip</dimen>
+    <dimen name="color_close_btn_padding_end">@dimen/M5</dimen>
+    <dimen name="color_close_btn_padding_start">@dimen/M5</dimen>
+    <dimen name="color_cloud_service_line_distance">9dip</dimen>
+    <dimen name="color_cloud_service_margin_top">24dip</dimen>
+    <dimen name="color_cloud_service_padding_top">56dip</dimen>
+    <dimen name="color_cloud_service_text_size">@dimen/color_font_size_14</dimen>
+    <dimen name="color_datepicker_margin_right">43dp</dimen>
+    <dimen name="color_delete_alert_dialog_button_height">48dp</dimen>
+    <dimen name="color_delete_alert_dialog_button_text_size">@dimen/color_font_size_12</dimen>
+    <dimen name="color_dialog_buttonPanel_height">54dip</dimen>
+    <dimen name="color_dialog_context_text_size">@dimen/color_font_size_12</dimen>
+    <dimen name="color_dialog_max_height">488dip</dimen>
+    <dimen name="color_dialog_max_height_landscape">306dp</dimen>
+    <dimen name="color_dialog_scrollview_height">378dp</dimen>
+    <dimen name="color_dialog_title_min_height">35dip</dimen>
+    <dimen name="color_dialog_title_text_size">20dp</dimen>
+    <dimen name="color_dialog_width">360dip</dimen>
+    <dimen name="color_division_subtitle_heigher">26dip</dimen>
+    <dimen name="color_division_subtitle_height">12dip</dimen>
+    <dimen name="color_division_view_text_margin_bottom">3dip</dimen>
+    <dimen name="color_division_view_text_margin_top">9dip</dimen>
+    <dimen name="color_empty_bottle_padding_top">185dip</dimen>
+    <dimen name="color_empty_text_margin_top">1dip</dimen>
+    <dimen name="color_empty_text_size">@dimen/color_font_size_14</dimen>
+    <dimen name="color_font_cut_drawable_height">8dip</dimen>
+    <dimen name="color_font_progress_default_width">252dip</dimen>
+    <dimen name="color_font_size_1">74dp</dimen>
+    <dimen name="color_font_size_10">16dp</dimen>
+    <dimen name="color_font_size_11">15dp</dimen>
+    <dimen name="color_font_size_12">15sp</dimen>
+    <dimen name="color_font_size_13">14dp</dimen>
+    <dimen name="color_font_size_14">14sp</dimen>
+    <dimen name="color_font_size_15">12sp</dimen>
+    <dimen name="color_font_size_16">12dp</dimen>
+    <dimen name="color_font_size_17">11dp</dimen>
+    <dimen name="color_font_size_18">11sp</dimen>
+    <dimen name="color_font_size_19">10dp</dimen>
+    <dimen name="color_font_size_2">35dp</dimen>
+    <dimen name="color_font_size_20">9dp</dimen>
+    <dimen name="color_font_size_21">100dp</dimen>
+    <dimen name="color_font_size_22">70dp</dimen>
+    <dimen name="color_font_size_23">66dp</dimen>
+    <dimen name="color_font_size_3">30dp</dimen>
+    <dimen name="color_font_size_4">25dp</dimen>
+    <dimen name="color_font_size_5">22dp</dimen>
+    <dimen name="color_font_size_6">20sp</dimen>
+    <dimen name="color_font_size_7">17dp</dimen>
+    <dimen name="color_font_size_8">17sp</dimen>
+    <dimen name="color_font_size_9">16sp</dimen>
+    <dimen name="color_font_size_progress_height">50dip</dimen>
+    <dimen name="color_hint_red_dot_Large_oval_width">19dip</dimen>
+    <dimen name="color_hint_red_dot_large_circle_radius">@dimen/M3</dimen>
+    <dimen name="color_hint_red_dot_large_oval_diameter">@dimen/M7</dimen>
+    <dimen name="color_hint_red_dot_large_oval_rectangle_width">@dimen/M2</dimen>
+    <dimen name="color_hint_red_dot_large_text_size">@dimen/TF03</dimen>
+    <dimen name="color_hint_red_dot_larger_circle_radius">@dimen/M4</dimen>
+    <dimen name="color_hint_red_dot_middle_circle_radius">4dip</dimen>
+    <dimen name="color_hint_red_dot_small_circle_radius">@dimen/M2</dimen>
+    <dimen name="color_hint_red_dot_small_oval_diameter">@dimen/M5</dimen>
+    <dimen name="color_hint_red_dot_small_oval_rectangle_width">4dip</dimen>
+    <dimen name="color_hint_red_dot_small_oval_width">@dimen/M7</dimen>
+    <dimen name="color_hint_red_dot_small_text_size">@dimen/TF02</dimen>
+    <dimen name="color_hint_red_dot_text_size">@dimen/TF02</dimen>
+    <dimen name="color_install_download_progress_height">@dimen/M10</dimen>
+    <dimen name="color_install_download_progress_height_large">36dip</dimen>
+    <dimen name="color_install_download_progress_textsize">@dimen/TD06</dimen>
+    <dimen name="color_install_download_progress_textsize_large">@dimen/TD09</dimen>
+    <dimen name="color_install_download_progress_width">54dip</dimen>
+    <dimen name="color_install_download_progress_width_large">228dip</dimen>
+    <dimen name="color_internet_label_button_gap">@dimen/M3</dimen>
+    <dimen name="color_internet_label_button_height">36dp</dimen>
+    <dimen name="color_internet_label_button_paddingleft">@dimen/M4</dimen>
+    <dimen name="color_internet_label_paddingleft">@dimen/M8</dimen>
+    <dimen name="color_internet_lable_textsize">@dimen/TD08</dimen>
+    <dimen name="color_itemtouchhelper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="color_itemtouchhelper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="color_large_btn_in_bar_bar_height">51dp</dimen>
+    <dimen name="color_large_btn_in_bar_btn_padding_side">16dp</dimen>
+    <dimen name="color_large_btn_in_bar_multi_btn_margin">8dp</dimen>
+    <dimen name="color_large_btn_in_bar_sigle_btn_width">230dp</dimen>
+    <dimen name="color_large_btn_in_bar_three_btn_width">100dp</dimen>
+    <dimen name="color_large_btn_in_bar_two_btn_width">153dp</dimen>
+    <dimen name="color_large_btn_in_content_horizontal_padding_top">20dp</dimen>
+    <dimen name="color_large_btn_in_content_horizontal_two_btn_width">153dp</dimen>
+    <dimen name="color_large_btn_in_content_multi_btn_margin">8dp</dimen>
+    <dimen name="color_large_btn_in_content_vertical_btn_width">300dp</dimen>
+    <dimen name="color_large_btn_in_content_vertical_margin">10dp</dimen>
+    <dimen name="color_large_btn_in_content_vertical_padding_top">29dp</dimen>
+    <dimen name="color_loading_view_default_height">12dip</dimen>
+    <dimen name="color_loading_view_default_length">20dip</dimen>
+    <dimen name="color_loading_view_default_width">12dip</dimen>
+    <dimen name="color_loading_view_large_height">44dip</dimen>
+    <dimen name="color_loading_view_large_width">44dip</dimen>
+    <dimen name="color_loading_view_medium_height">28dip</dimen>
+    <dimen name="color_loading_view_medium_width">28dip</dimen>
+    <dimen name="color_loading_view_refresh_height">19dip</dimen>
+    <dimen name="color_loading_view_refresh_width">19dip</dimen>
+    <dimen name="color_navigation_extra_key_width">40dip</dimen>
+    <dimen name="color_navigation_key_width">97dip</dimen>
+    <dimen name="color_no_content_distance_button">10dp</dimen>
+    <dimen name="color_no_content_distance_notes_message">6dp</dimen>
+    <dimen name="color_no_content_large_text_size">@dimen/color_font_size_6</dimen>
+    <dimen name="color_no_content_padding_left">18dp</dimen>
+    <dimen name="color_no_content_padding_right">18dp</dimen>
+    <dimen name="color_no_content_small_text_size">@dimen/color_font_size_15</dimen>
+    <dimen name="color_no_network_btn_height">24dp</dimen>
+    <dimen name="color_no_network_btn_margin_top">11dp</dimen>
+    <dimen name="color_no_network_btn_text_size">12dp</dimen>
+    <dimen name="color_no_network_btn_width">74dp</dimen>
+    <dimen name="color_no_network_distance_button">12dp</dimen>
+    <dimen name="color_no_network_max_height">51dp</dimen>
+    <dimen name="color_no_network_small_text_max_height">40dp</dimen>
+    <dimen name="color_no_network_small_text_size">13sp</dimen>
+    <dimen name="color_no_network_text_size">@dimen/color_font_size_9</dimen>
+    <dimen name="color_numberpicker_changeindex_distance">7dp</dimen>
+    <dimen name="color_numberpicker_padding">50dp</dimen>
+    <dimen name="color_numberpicker_padding_min">9dp</dimen>
+    <dimen name="color_numberpicker_text_min_marginleft">60dp</dimen>
+    <dimen name="color_numberpicker_text_min_margintop">80dp</dimen>
+    <dimen name="color_option_dialog_illustrate_text_padding">@dimen/M5</dimen>
+    <dimen name="color_option_dialog_listview_min_height">48dp</dimen>
+    <dimen name="color_option_dialog_listview_padding">12dp</dimen>
+    <dimen name="color_option_dialog_listview_padding_bottom">12dp</dimen>
+    <dimen name="color_option_dialog_listview_padding_top">12dp</dimen>
+    <dimen name="color_option_dialog_listview_text2_padding_top">1dp</dimen>
+    <dimen name="color_option_dialog_text_margin">1dp</dimen>
+    <dimen name="color_plain_text_content_margin_top">8dip</dimen>
+    <dimen name="color_plain_text_padding_side">18dip</dimen>
+    <dimen name="color_plain_text_padding_top">15dip</dimen>
+    <dimen name="color_plain_text_title_margin_top">24dip</dimen>
+    <dimen name="color_preference_status_text_max_width">162dip</dimen>
+    <dimen name="color_progress_dialog_text_size">@dimen/color_font_size_13</dimen>
+    <dimen name="color_resolve_dialog_chinese_text_length">51dp</dimen>
+    <dimen name="color_resolve_dialog_english_text_length">67dp</dimen>
+    <dimen name="color_resolve_dialog_itembg_paddingright">4dp</dimen>
+    <dimen name="color_resolve_dialog_text_line_distance">11dp</dimen>
+    <dimen name="color_resolve_dialog_text_paddingbottom">13dp</dimen>
+    <dimen name="color_roundimageView_src_width">60dp</dimen>
+    <dimen name="color_roundimageview_default_radius">42dp</dimen>
+    <dimen name="color_sau_dialog_content_marginleft">18dp</dimen>
+    <dimen name="color_search_bar_height">30dip</dimen>
+    <dimen name="color_search_edit_frame_margin">0dip</dimen>
+    <dimen name="color_search_view_anim_margin_normal">9dip</dimen>
+    <dimen name="color_search_view_anim_margin_under_actionbar">8dip</dimen>
+    <dimen name="color_search_view_cancel_btn_margin">@dimen/M6</dimen>
+    <dimen name="color_search_view_hint_text_paddding_right">@dimen/M5</dimen>
+    <dimen name="color_search_view_icon_width">30dp</dimen>
+    <dimen name="color_search_view_limit_padding_right">@dimen/M5</dimen>
+    <dimen name="color_search_view_margin_left">@dimen/M7</dimen>
+    <dimen name="color_search_view_margin_right">@dimen/M7</dimen>
+    <dimen name="color_search_view_text_size">@dimen/TD08</dimen>
+    <dimen name="color_search_view_up_margin_left">38dip</dimen>
+    <dimen name="color_security_alertdailog_checkbox_margin_bottom">27dp</dimen>
+    <dimen name="color_security_alertdailog_checkbox_margin_left">15dp</dimen>
+    <dimen name="color_security_alertdailog_checkbox_margin_right">17dp</dimen>
+    <dimen name="color_security_alertdailog_message_padding_bottom">17dp</dimen>
+    <dimen name="color_security_alertdailog_message_padding_left">17dp</dimen>
+    <dimen name="color_security_alertdailog_message_padding_right">17dp</dimen>
+    <dimen name="color_security_alertdailog_message_padding_top">27dp</dimen>
+    <dimen name="color_slideview_group_round_radius">6dip</dimen>
+    <dimen name="color_slideview_menuitem_width">64dip</dimen>
+    <dimen name="color_slideview_text_padding">6dip</dimen>
+    <dimen name="color_slideview_textsize">@dimen/color_font_size_11</dimen>
+    <dimen name="color_slideview_touch_slop">3dip</dimen>
+    <dimen name="color_split_menu_view_max_rect_width">20dp</dimen>
+    <dimen name="color_split_menu_view_min_point_radius">@dimen/M2</dimen>
+    <dimen name="color_split_menu_view_min_rect_width">16dp</dimen>
+    <dimen name="color_split_menu_view_normal_point_radius">@dimen/M3</dimen>
+    <dimen name="color_subtitle_view_height">40dip</dimen>
+    <dimen name="color_subtitle_view_left_text_width">219dip</dimen>
+    <dimen name="color_subtitle_view_margin_left">@dimen/M9</dimen>
+    <dimen name="color_subtitle_view_margin_right">@dimen/M8</dimen>
+    <dimen name="color_subtitle_view_right_text_width">96dip</dimen>
+    <dimen name="color_subtitle_view_text_margin_bottom">8dip</dimen>
+    <dimen name="color_subtitle_view_text_size">@dimen/TD04</dimen>
+    <dimen name="color_support_menu_item_height">48dip</dimen>
+    <dimen name="color_support_menu_item_textsize">@dimen/TD05</dimen>
+    <dimen name="color_support_menu_item_width">48dip</dimen>
+    <dimen name="color_support_menu_padding_bottom">8dp</dimen>
+    <dimen name="color_support_menu_padding_left">@dimen/M3</dimen>
+    <dimen name="color_support_menu_padding_right">@dimen/M3</dimen>
+    <dimen name="color_support_menu_padding_top">6dp</dimen>
+    <dimen name="color_support_menu_text_max_length">62dip</dimen>
+    <dimen name="color_support_menu_text_padding_side">3dp</dimen>
+    <dimen name="color_support_menu_text_padding_top">-3dp</dimen>
+    <dimen name="color_support_menu_view_padding_bottom">7dp</dimen>
+    <dimen name="color_support_menu_width">348dip</dimen>
+    <dimen name="color_switch_min_width">48dip</dimen>
+    <dimen name="color_tabwidget_maxwidth_first_level">111dip</dimen>
+    <dimen name="color_tabwidget_maxwidth_second_level">131dip</dimen>
+    <dimen name="color_tabwidget_min_width">72dip</dimen>
+    <dimen name="color_text_cursor_width">1dip</dimen>
+    <dimen name="color_time_picker_ampm_width">54dp</dimen>
+    <dimen name="color_time_picker_date_width">@dimen/oppo_numberPicker_width_bigger</dimen>
+    <dimen name="color_time_picker_height">160dp</dimen>
+    <dimen name="color_time_picker_hour_min_width">50dp</dimen>
+    <dimen name="color_time_picker_paddingSide">30dp</dimen>
+    <dimen name="color_upload_or_download_strokewidth">2dip</dimen>
+    <dimen name="content_header_container_height">288dp</dimen>
+    <dimen name="content_header_menu_container_height">90dp</dimen>
+    <dimen name="content_header_menu_mirror_height">40dp</dimen>
+    <dimen name="custom_actionbar_layout_height">42dp</dimen>
+    <dimen name="default_statusbar_height">18dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="oppo_action_bar_action_mode_title_text_size">@dimen/TD08</dimen>
+    <dimen name="oppo_action_bar_default_height">48dp</dimen>
+    <dimen name="oppo_action_bar_icon_vertical_padding">9dp</dimen>
+    <dimen name="oppo_action_bar_menu_max_width">78dp</dimen>
+    <dimen name="oppo_action_bar_subtitle_text_size">@dimen/TD05</dimen>
+    <dimen name="oppo_action_bar_subtitle_top_margin">-2dp</dimen>
+    <dimen name="oppo_action_bar_title_max_width">176dp</dimen>
+    <dimen name="oppo_action_bar_title_text_size">@dimen/TD08</dimen>
+    <dimen name="oppo_actionbar_animatetab_offset">0dip</dimen>
+    <dimen name="oppo_actionbar_animatetab_out_length">0dip</dimen>
+    <dimen name="oppo_actionbar_bottom_tab_button_large_textsize">@dimen/TD11</dimen>
+    <dimen name="oppo_actionbar_bottom_tab_button_middle_textsize">@dimen/TD08</dimen>
+    <dimen name="oppo_actionbar_bottom_tab_button_small_textsize">@dimen/TD05</dimen>
+    <dimen name="oppo_actionbar_bottom_tab_button_textsize">@dimen/TD11</dimen>
+    <dimen name="oppo_actionbar_bottom_tab_textsize">@dimen/TD04</dimen>
+    <dimen name="oppo_actionbar_button_padding_right">12dip</dimen>
+    <dimen name="oppo_actionbar_switch_padding_right">3dip</dimen>
+    <dimen name="oppo_actionbar_tab_background_height">50dp</dimen>
+    <dimen name="oppo_actionbar_tab_different_size">0dp</dimen>
+    <dimen name="oppo_actionbar_tab_double_lines_different_size">0dp</dimen>
+    <dimen name="oppo_actionbar_tab_double_lines_icon_item_marginTop">2dp</dimen>
+    <dimen name="oppo_actionbar_tab_double_lines_text_item_marginTop">2dp</dimen>
+    <dimen name="oppo_actionbar_tab_icon_item_marginTop">4dp</dimen>
+    <dimen name="oppo_actionbar_tab_text_item_marginTop">-2dp</dimen>
+    <dimen name="oppo_actionbar_tab_text_padding_left">0dip</dimen>
+    <dimen name="oppo_actionbar_tab_text_padding_right">0dip</dimen>
+    <dimen name="oppo_actionbar_tab_textsize">@dimen/TD08</dimen>
+    <dimen name="oppo_actionbar_tab_textsize_selected">@dimen/TD08</dimen>
+    <dimen name="oppo_actionbar_tab_view_min_width">0dip</dimen>
+    <dimen name="oppo_actionbar_tab_view_padding_end">0dip</dimen>
+    <dimen name="oppo_actionbar_tab_view_padding_start">0dip</dimen>
+    <dimen name="oppo_actionbar_title_padding_left">@dimen/M7</dimen>
+    <dimen name="oppo_autocomplete_text_size">14sp</dimen>
+    <dimen name="oppo_btn_checkbox_paddingleft">@dimen/M3</dimen>
+    <dimen name="oppo_btn_height_min">23dip</dimen>
+    <dimen name="oppo_btn_height_min_small">23dip</dimen>
+    <dimen name="oppo_btn_text_size">18sp</dimen>
+    <dimen name="oppo_btn_text_size_small">@dimen/color_font_size_15</dimen>
+    <dimen name="oppo_btn_width_min">132dip</dimen>
+    <dimen name="oppo_btn_width_min_small">54dip</dimen>
+    <dimen name="oppo_common_category_text_padding_bottom">@dimen/M2</dimen>
+    <dimen name="oppo_common_category_text_padding_top">@dimen/M5</dimen>
+    <dimen name="oppo_compoundbutton_text_size">12sp</dimen>
+    <dimen name="oppo_datepicker_button_height">60dip</dimen>
+    <dimen name="oppo_datepicker_height">160dip</dimen>
+    <dimen name="oppo_datepicker_paddingSide">55dp</dimen>
+    <dimen name="oppo_datepicker_width">308dp</dimen>
+    <dimen name="oppo_datepicker_width_day">@dimen/oppo_numberpicker_width_middle</dimen>
+    <dimen name="oppo_datepicker_width_month">@dimen/oppo_numberPicker_width_bigger</dimen>
+    <dimen name="oppo_datepicker_width_year">@dimen/oppo_numberpicker_width_big</dimen>
+    <dimen name="oppo_dialog_buttonPanel_height">46dip</dimen>
+    <dimen name="oppo_dialog_button_height">50dip</dimen>
+    <dimen name="oppo_dialog_button_text_size">@dimen/TD08</dimen>
+    <dimen name="oppo_dialog_content_text_size_large">@dimen/color_font_size_12</dimen>
+    <dimen name="oppo_dialog_content_text_size_small">@dimen/color_font_size_15</dimen>
+    <dimen name="oppo_dialog_customview_padding_left">18dp</dimen>
+    <dimen name="oppo_dialog_customview_padding_right">18dp</dimen>
+    <dimen name="oppo_dialog_hint_text_size">16sp</dimen>
+    <dimen name="oppo_dialog_title_min_height">36dip</dimen>
+    <dimen name="oppo_dialog_title_text_size">@dimen/TD09</dimen>
+    <dimen name="oppo_edit_text_drawable_padding">13dip</dimen>
+    <dimen name="oppo_edit_text_height_min">36dip</dimen>
+    <dimen name="oppo_edit_text_paddingleft">0dip</dimen>
+    <dimen name="oppo_edittext_text_size">@dimen/TD08</dimen>
+    <dimen name="oppo_homeback_margin_left">-24dip</dimen>
+    <dimen name="oppo_list_item_content_and_icon_margin">@dimen/M5</dimen>
+    <dimen name="oppo_list_item_divider_left_margin">18dp</dimen>
+    <dimen name="oppo_list_item_divider_right_margin">18dp</dimen>
+    <dimen name="oppo_list_item_function_both_side_icon_between_text_margin">1dp</dimen>
+    <dimen name="oppo_list_item_function_icon_both_side_margin_left">15dp</dimen>
+    <dimen name="oppo_list_item_function_icon_margin_right">15dp</dimen>
+    <dimen name="oppo_list_item_jump_margin_right">14dp</dimen>
+    <dimen name="oppo_list_item_large_icon_between_text_margin">15dp</dimen>
+    <dimen name="oppo_list_item_large_icon_category_height">19dp</dimen>
+    <dimen name="oppo_list_item_large_icon_category_left_margin">15dp</dimen>
+    <dimen name="oppo_list_item_large_icon_category_padding_bottom">5dp</dimen>
+    <dimen name="oppo_list_item_large_icon_left_margin">18dp</dimen>
+    <dimen name="oppo_list_item_large_icon_padding_bottom">7dp</dimen>
+    <dimen name="oppo_list_item_large_icon_padding_top">7dp</dimen>
+    <dimen name="oppo_list_item_margin_between_widget_and_title">9dp</dimen>
+    <dimen name="oppo_list_item_normal_height">60dp</dimen>
+    <dimen name="oppo_list_item_small_icon_between_text_margin">15dp</dimen>
+    <dimen name="oppo_list_item_small_icon_category_height">33dp</dimen>
+    <dimen name="oppo_list_item_small_icon_category_left_margin">15dp</dimen>
+    <dimen name="oppo_list_item_small_icon_category_padding_bottom">8dp</dimen>
+    <dimen name="oppo_list_item_small_icon_left_margin">18dp</dimen>
+    <dimen name="oppo_list_item_small_icons_margin">5dp</dimen>
+    <dimen name="oppo_list_item_text_category_height">24dp</dimen>
+    <dimen name="oppo_list_item_text_category_left_margin">15dp</dimen>
+    <dimen name="oppo_list_item_text_category_padding_bottom">3dp</dimen>
+    <dimen name="oppo_list_item_text_left_margin">18dp</dimen>
+    <dimen name="oppo_list_item_text_right_margin">18dp</dimen>
+    <dimen name="oppo_list_popupwindow_horizontal_off">0dp</dimen>
+    <dimen name="oppo_list_popupwindow_vertical_off">3dp</dimen>
+    <dimen name="oppo_list_text_size_large">@dimen/TD09</dimen>
+    <dimen name="oppo_list_text_size_small">@dimen/TD05</dimen>
+    <dimen name="oppo_listview_scrollchoice_left_offset">17dp</dimen>
+    <dimen name="oppo_listview_scrollchoice_right_offset">43dp</dimen>
+    <dimen name="oppo_numberPicker_width_bigger">126dp</dimen>
+    <dimen name="oppo_numberPicker_width_biggest">156dp</dimen>
+    <dimen name="oppo_numberpicker_button_height">57dp</dimen>
+    <dimen name="oppo_numberpicker_button_width">80dp</dimen>
+    <dimen name="oppo_numberpicker_height">160dp</dimen>
+    <dimen name="oppo_numberpicker_textSize_big">@dimen/TF11</dimen>
+    <dimen name="oppo_numberpicker_textSize_gradual_small">@dimen/color_font_size_13</dimen>
+    <dimen name="oppo_numberpicker_textSize_middle">@dimen/TF11</dimen>
+    <dimen name="oppo_numberpicker_textSize_small">@dimen/TF11</dimen>
+    <dimen name="oppo_numberpicker_width_big">66dp</dimen>
+    <dimen name="oppo_numberpicker_width_large">70dp</dimen>
+    <dimen name="oppo_numberpicker_width_middle">58dp</dimen>
+    <dimen name="oppo_numberpicker_width_small">22dp</dimen>
+    <dimen name="oppo_preference_button_margin_left">15dip</dimen>
+    <dimen name="oppo_preference_category_min_height">12dip</dimen>
+    <dimen name="oppo_preference_category_text_height">25dip</dimen>
+    <dimen name="oppo_preference_category_text_padding_bottom">3dip</dimen>
+    <dimen name="oppo_preference_category_text_padding_left">0dip</dimen>
+    <dimen name="oppo_preference_category_text_padding_top">9dip</dimen>
+    <dimen name="oppo_preference_category_text_size">@dimen/TD05</dimen>
+    <dimen name="oppo_preference_checkbox_margin_left">0dip</dimen>
+    <dimen name="oppo_preference_checkbox_margin_right">-10dip</dimen>
+    <dimen name="oppo_preference_detail_margin_bottom">@dimen/M9</dimen>
+    <dimen name="oppo_preference_detail_margin_top">@dimen/M3</dimen>
+    <dimen name="oppo_preference_foot_notation_margin_top">@dimen/M10</dimen>
+    <dimen name="oppo_preference_fragment_item_padding_side">@dimen/M7</dimen>
+    <dimen name="oppo_preference_fragment_padding_side">0dip</dimen>
+    <dimen name="oppo_preference_framelayout_border_bottom">0dp</dimen>
+    <dimen name="oppo_preference_framelayout_border_left">0dp</dimen>
+    <dimen name="oppo_preference_framelayout_border_right">0dp</dimen>
+    <dimen name="oppo_preference_framelayout_border_top">0dp</dimen>
+    <dimen name="oppo_preference_group_padding">4dip</dimen>
+    <dimen name="oppo_preference_icon_margin_left">0dip</dimen>
+    <dimen name="oppo_preference_icon_margin_right">@dimen/M11</dimen>
+    <dimen name="oppo_preference_switch_margin_left">0dip</dimen>
+    <dimen name="oppo_preference_switch_margin_right">-4dip</dimen>
+    <dimen name="oppo_preference_switch_padding_right">7dip</dimen>
+    <dimen name="oppo_preference_text_margin_left">0dip</dimen>
+    <dimen name="oppo_preference_text_margin_right">@dimen/M4</dimen>
+    <dimen name="oppo_preference_title_margin_right">12dip</dimen>
+    <dimen name="oppo_preference_toggle_margin_left">0dip</dimen>
+    <dimen name="oppo_preference_toggle_margin_right">0dip</dimen>
+    <dimen name="oppo_preference_widget_padding_right">8dp</dimen>
+    <dimen name="oppo_progress_dialog_text_size">@dimen/color_font_size_19</dimen>
+    <dimen name="oppo_search_margin_left">12dip</dimen>
+    <dimen name="oppo_search_margin_right">-8dip</dimen>
+    <dimen name="oppo_searchview_text_hint_size">@dimen/TD06</dimen>
+    <dimen name="oppo_searchview_text_size">@dimen/TD07</dimen>
+    <dimen name="oppo_searchview_voice_padding_right">0dip</dimen>
+    <dimen name="oppo_spinner_progress_dialog_height">51dp</dimen>
+    <dimen name="oppo_switchpreference_paddingleft">18dp</dimen>
+    <dimen name="oppo_tabwidget_textsize">16sp</dimen>
+    <dimen name="oppo_textview_content_text_size">@dimen/color_font_size_15</dimen>
+    <dimen name="oppo_textview_cursorOffset">1dip</dimen>
+    <dimen name="oppo_textview_text_size">@dimen/TD08</dimen>
+    <dimen name="oppo_time_picker_text_marginleft">45dp</dimen>
+    <dimen name="oppo_timepicker_height">160dip</dimen>
+    <dimen name="oppo_timepicker_text_size">16dp</dimen>
+    <dimen name="oppo_timepicker_width">308dp</dimen>
+    <dimen name="oppo_title_bar_height">48dp</dimen>
+    <dimen name="oppo_title_text_size">20sp</dimen>
+    <dimen name="oppo_touchsearch_background_width">19dip</dimen>
+    <dimen name="oppo_touchsearch_char_offset">0dip</dimen>
+    <dimen name="oppo_touchsearch_key_textsize">@dimen/TF03</dimen>
+    <dimen name="oppo_touchsearch_popupwin_default_height">48dip</dimen>
+    <dimen name="oppo_touchsearch_popupwin_default_textsize">@dimen/TD13</dimen>
+    <dimen name="oppo_touchsearch_popupwin_default_width">48dip</dimen>
+    <dimen name="oppo_touchsearch_popupwin_right_margin">102dip</dimen>
+    <dimen name="oppo_touchsearch_popupwin_sub_height">48dip</dimen>
+    <dimen name="oppo_touchsearch_popupwin_top_margin">144dip</dimen>
+    <dimen name="oppo_touchsearch_right_margin">5dip</dimen>
+    <dimen name="page_point_bottom_margin">110.33dp</dimen>
+    <dimen name="page_point_bottom_margin_offset">-13dip</dimen>
+    <dimen name="page_point_height">14dip</dimen>
+    <dimen name="page_point_internal_space">6.5dip</dimen>
+    <dimen name="page_point_normal_height">10dp</dimen>
+    <dimen name="page_point_normal_wight">10dp</dimen>
+    <dimen name="page_point_width">285dip</dimen>
+    <dimen name="resolve_dialog_button_height">30dip</dimen>
+    <dimen name="resolve_dialog_button_width">30dip</dimen>
+    <dimen name="resolve_dialog_dot_margin_bottom">5dip</dimen>
+    <dimen name="resolve_dialog_dot_radius">2dip</dimen>
+    <dimen name="resolve_dialog_dot_view_height">20dip</dimen>
+    <dimen name="resolve_dialog_icon_height">51dip</dimen>
+    <dimen name="resolve_dialog_icon_width">51dip</dimen>
+    <dimen name="resolve_dialog_item_height">102dip</dimen>
+    <dimen name="resolve_dialog_item_textsize">@dimen/TD04</dimen>
+    <dimen name="resolve_dialog_left_padding">19dip</dimen>
+    <dimen name="resolve_dialog_menu_icon_text_distance">5dip</dimen>
+    <dimen name="resolve_dialog_menu_item_height">24dip</dimen>
+    <dimen name="resolve_dialog_menu_item_width">24dip</dimen>
+    <dimen name="resolve_dialog_menu_padding_left">24dip</dimen>
+    <dimen name="resolve_dialog_menu_padding_top">7dip</dimen>
+    <dimen name="resolve_dialog_menu_view_height">51dip</dimen>
+    <dimen name="resolve_dialog_select_height">85dip</dimen>
+    <dimen name="resolve_dialog_select_width">59dip</dimen>
+    <dimen name="resolve_dialog_top_padding">15dip</dimen>
+    <dimen name="support_abc_action_bar_content_inset_material">16dp</dimen>
+    <dimen name="support_abc_action_bar_default_height_material">56dp</dimen>
+    <dimen name="support_abc_action_bar_default_padding_material">4dp</dimen>
+    <dimen name="support_abc_action_bar_icon_vertical_padding">8dip</dimen>
+    <dimen name="support_abc_action_bar_icon_vertical_padding_material">16dp</dimen>
+    <dimen name="support_abc_action_bar_navigation_padding_start_material">0dp</dimen>
+    <dimen name="support_abc_action_bar_overflow_padding_end_material">10dp</dimen>
+    <dimen name="support_abc_action_bar_overflow_padding_start_material">6dp</dimen>
+    <dimen name="support_abc_action_bar_progress_bar_size">40dp</dimen>
+    <dimen name="support_abc_action_bar_stacked_max_height">48dp</dimen>
+    <dimen name="support_abc_action_bar_stacked_tab_max_width">180dp</dimen>
+    <dimen name="support_abc_action_bar_subtitle_bottom_margin_material">5dp</dimen>
+    <dimen name="support_abc_action_bar_subtitle_top_margin_material">-3dp</dimen>
+    <dimen name="support_abc_action_button_min_height_material">48dp</dimen>
+    <dimen name="support_abc_action_button_min_width_material">48dp</dimen>
+    <dimen name="support_abc_action_button_min_width_overflow_material">36dp</dimen>
+    <dimen name="support_abc_alert_dialog_button_bar_height">48dp</dimen>
+    <dimen name="support_abc_button_inset_horizontal_material">@dimen/support_abc_control_inset_material</dimen>
+    <dimen name="support_abc_button_inset_vertical_material">6dp</dimen>
+    <dimen name="support_abc_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="support_abc_button_padding_vertical_material">@dimen/support_abc_control_padding_material</dimen>
+    <dimen name="support_abc_config_prefDialogWidth">320dp</dimen>
+    <dimen name="support_abc_control_corner_material">2dp</dimen>
+    <dimen name="support_abc_control_inset_material">4dp</dimen>
+    <dimen name="support_abc_control_padding_material">4dp</dimen>
+    <dimen name="support_abc_dialog_list_padding_vertical_material">8dp</dimen>
+    <item name="support_abc_dialog_min_width_major" type="dimen">65%</item>
+    <item name="support_abc_dialog_min_width_minor" type="dimen">95%</item>
+    <dimen name="support_abc_dialog_padding_material">24dp</dimen>
+    <dimen name="support_abc_dialog_padding_top_material">18dp</dimen>
+    <item format="float" name="support_abc_disabled_alpha_material_dark" type="dimen">0.30</item>
+    <item format="float" name="support_abc_disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="support_abc_dropdownitem_icon_width">32dip</dimen>
+    <dimen name="support_abc_dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="support_abc_dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="support_abc_edit_text_inset_bottom_material">7dp</dimen>
+    <dimen name="support_abc_edit_text_inset_horizontal_material">4dp</dimen>
+    <dimen name="support_abc_edit_text_inset_top_material">10dp</dimen>
+    <dimen name="support_abc_floating_window_z">16dp</dimen>
+    <dimen name="support_abc_list_item_padding_horizontal_material">@dimen/support_abc_action_bar_content_inset_material</dimen>
+    <dimen name="support_abc_panel_menu_list_width">296dp</dimen>
+    <dimen name="support_abc_search_view_preferred_width">320dip</dimen>
+    <dimen name="support_abc_search_view_text_min_width">160dip</dimen>
+    <dimen name="support_abc_switch_padding">3dp</dimen>
+    <dimen name="support_abc_text_size_body_1_material">14sp</dimen>
+    <dimen name="support_abc_text_size_body_2_material">14sp</dimen>
+    <dimen name="support_abc_text_size_button_material">14sp</dimen>
+    <dimen name="support_abc_text_size_caption_material">12sp</dimen>
+    <dimen name="support_abc_text_size_display_1_material">34sp</dimen>
+    <dimen name="support_abc_text_size_display_2_material">45sp</dimen>
+    <dimen name="support_abc_text_size_display_3_material">56sp</dimen>
+    <dimen name="support_abc_text_size_display_4_material">112sp</dimen>
+    <dimen name="support_abc_text_size_headline_material">24sp</dimen>
+    <dimen name="support_abc_text_size_large_material">22sp</dimen>
+    <dimen name="support_abc_text_size_medium_material">18sp</dimen>
+    <dimen name="support_abc_text_size_menu_material">16sp</dimen>
+    <dimen name="support_abc_text_size_small_material">14sp</dimen>
+    <dimen name="support_abc_text_size_subhead_material">16sp</dimen>
+    <dimen name="support_abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="support_abc_text_size_title_material">20sp</dimen>
+    <dimen name="support_abc_text_size_title_material_toolbar">20dp</dimen>
+    <item name="support_dialog_fixed_height_major" type="dimen">80%</item>
+    <item name="support_dialog_fixed_height_minor" type="dimen">100%</item>
+    <item name="support_dialog_fixed_width_major" type="dimen">320dp</item>
+    <item name="support_dialog_fixed_width_minor" type="dimen">320dp</item>
+    <item format="float" name="support_disabled_alpha_material_dark" type="dimen">0.30</item>
+    <item format="float" name="support_disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="support_notification_large_icon_height">64dp</dimen>
+    <dimen name="support_notification_large_icon_width">64dp</dimen>
+    <dimen name="support_notification_subtext_size">12dp</dimen>
+    <dimen name="touch_item_min_height">60dp</dimen>
+    <item name="color_actionbar_back_title" type="id"/>
+    <item name="color_bottom_menu_view_id" type="id"/>
+    <item name="color_expanded_home_view" type="id"/>
+    <item name="color_home_view" type="id"/>
+    <item name="color_title_layout" type="id"/>
+    <item name="color_translucent_decor_background" type="id"/>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="listPanel" type="id"/>
+    <item name="oppo_listview_scrollchoice_checkbox" type="id"/>
+    <item name="option_dialog_divider" type="id"/>
+    <item name="search_icon" type="id"/>
+    <item name="search_src" type="id"/>
+    <item name="search_src_icon" type="id"/>
+    <item name="summary_text2" type="id"/>
+    <item name="support_action_bar_activity_content" type="id"/>
+    <item name="support_action_bar_spinner" type="id"/>
+    <item name="support_action_menu_divider" type="id"/>
+    <item name="support_action_menu_presenter" type="id"/>
+    <item name="support_home" type="id"/>
+    <item name="support_progress_circular" type="id"/>
+    <item name="support_progress_horizontal" type="id"/>
+    <item name="support_split_action_bar" type="id"/>
+    <item name="support_up" type="id"/>
+    <integer name="color_multichoice_duration">300</integer>
+    <integer name="oppo_actionbar_duration">300</integer>
+    <integer name="oppo_multiselect_delay">150</integer>
+    <integer name="oppo_multiselect_duration_remove">300</integer>
+    <integer name="oppo_optionmenubar_duration">200</integer>
+    <integer name="oppo_preference_summary_max_lines">7</integer>
+    <integer name="oppo_preference_title_max_lines">2</integer>
+    <integer name="oppo_touchsearch_popupwin_default_top_mincoordinate">60</integer>
+    <integer name="support_abc_config_activityDefaultDur">220</integer>
+    <integer name="support_abc_config_activityShortDur">150</integer>
+    <integer name="support_abc_max_action_buttons">2</integer>
+    <integer name="support_cancel_button_image_alpha">127</integer>
+    <integer name="support_status_bar_notification_info_maxnum">999</integer>
+    <item name="color_multichoice_interpolator_fade_in" type="interpolator">@android:interpolator/decelerate_quint</item>
+    <item name="color_multichoice_interpolator_fade_out" type="interpolator">@android:interpolator/accelerate_quint</item>
+    <item name="color_multichoice_interpolator_left_in" type="interpolator">@android:interpolator/accelerate_quad</item>
+    <item name="color_multichoice_interpolator_left_out" type="interpolator">@android:interpolator/decelerate_quad</item>
+    <item name="color_multichoice_interpolator_right_in" type="interpolator">@android:interpolator/accelerate_quad</item>
+    <item name="color_multichoice_interpolator_right_out" type="interpolator">@android:interpolator/decelerate_quad</item>
+    <item name="oppo_multiselect_interpolator_bottom_in" type="interpolator">@android:interpolator/decelerate_cubic</item>
+    <item name="oppo_multiselect_interpolator_bottom_out" type="interpolator">@android:interpolator/decelerate_cubic</item>
+    <string name="color_actionbar_back_title_default_text">Back</string>
+    <string name="color_allow_text">Agree</string>
+    <string msgid="8340973892742019101" name="color_byteShort">"B"</string>
+    <string name="color_cloud_service_textview">Enable cloud albums to upload pictures to the cloud drive,\nwhere they will never be lost, and you can to access them anytime.</string>
+    <string name="color_day"/>
+    <string name="color_empty_page_textview">No files</string>
+    <string msgid="3259882455212193214" name="color_gigabyteShort">"GB"</string>
+    <string name="color_hour">hours</string>
+    <string name="color_install_download_progress_textview">Download</string>
+    <string name="color_internet_label_apostrophe">...</string>
+    <string msgid="5973789783504771878" name="color_kilobyteShort">"KB"</string>
+    <string name="color_loading_view_access_string">Loading</string>
+    <string msgid="6355851576770428922" name="color_megabyteShort">"MB"</string>
+    <string name="color_minute">min</string>
+    <string name="color_month"/>
+    <string name="color_no_network_btn_text">Set network</string>
+    <string name="color_no_network_textview">No network</string>
+    <string name="color_reject_text">Exit</string>
+    <string name="color_sau_dialog_description_head">What\'s new:</string>
+    <string name="color_sau_dialog_downloaded_prompt">An upgrade package has been downloaded without consuming any data. It can be installed directly.</string>
+    <string name="color_sau_dialog_install_later">Later</string>
+    <string name="color_sau_dialog_install_now">Install</string>
+    <string name="color_sau_dialog_mobile_propmt">You are using the mobile network. Updating apps will consume mobile data.</string>
+    <string name="color_sau_dialog_new_version">New version detected</string>
+    <string name="color_sau_dialog_size">Size:</string>
+    <string name="color_sau_dialog_upgrade_exit">Exit</string>
+    <string name="color_sau_dialog_upgrade_later">Cancel</string>
+    <string name="color_sau_dialog_upgrade_now">Update</string>
+    <string name="color_sau_dialog_upgrade_running">Updating...</string>
+    <string name="color_sau_dialog_vername">Version:</string>
+    <string name="color_search_view_text">Cancel</string>
+    <string name="color_security_alertdialog_checkbox_msg">Don\'t ask again</string>
+    <string name="color_slide_delete">Delete</string>
+    <string name="color_split_menu_view_update_string1">new items</string>
+    <string name="color_split_menu_view_update_string2">new items</string>
+    <string name="color_time_picker_day"/>
+    <string name="color_time_picker_today">Today</string>
+    <string name="color_year"/>
+    <string name="days_ago">  days ago</string>
+    <string name="hours_ago">  hours ago</string>
+    <string name="just_now">Just now</string>
+    <string name="md" translatable="false">M月d日</string>
+    <string name="mdw" translatable="false">M月d日 EEEE</string>
+    <string name="minutes_ago">  minutes ago</string>
+    <string name="months_ago">  months ago</string>
+    <string name="more_time_download"> k</string>
+    <string name="most_time_download"> m</string>
+    <string name="oppo_id">OPPO ID</string>
+    <string name="oppo_loading_dialog_text_view">Loading…</string>
+    <string name="oppo_lunar_leap_11">闰十一</string>
+    <string name="oppo_lunar_leap_12">闰十二</string>
+    <string name="oppo_lunar_leap_string">闰</string>
+    <string name="oppo_picker_day"/>
+    <string name="oppo_picker_year"/>
+    <string name="oppo_touchsearch_dot" translatable="false">•</string>
+    <string name="oppo_whichApplication">Complete action using</string>
+    <string msgid="4600421777120114993" name="support_abc_action_bar_home_description">"Go to main screen"</string>
+    <string name="support_abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="support_abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string msgid="1594238315039666878" name="support_abc_action_bar_up_description">"Go to last level"</string>
+    <string msgid="3588849162933574182" name="support_abc_action_menu_overflow_description">More options</string>
+    <string msgid="4076576682505996667" name="support_abc_action_mode_done">Done</string>
+    <string msgid="7468859129482906941" name="support_abc_activity_chooser_view_see_all">See all</string>
+    <string msgid="2031811694353399454" name="support_abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="support_abc_search_hint">Search…</string>
+    <string msgid="3691816814315814921" name="support_abc_searchview_description_clear">Clear query</string>
+    <string msgid="8264924765203268293" name="support_abc_searchview_description_search">Search</string>
+    <string msgid="8928215447528550784" name="support_abc_searchview_description_submit">Submit query</string>
+    <string msgid="893419373245838918" name="support_abc_searchview_description_voice">Voice search</string>
+    <string msgid="3421042268587513524" name="support_abc_shareactionprovider_share_with">Share via</string>
+    <string msgid="7165123711973476752" name="support_abc_shareactionprovider_share_with_application">"Share via %s"</string>
+    <string name="support_abc_toolbar_collapse_description">Collapse</string>
+    <string name="years_ago">  years ago</string>
+    <string name="ymd" translatable="false">yyyy年M月d日</string>
+    <string name="ymdw" translatable="false">yyyy年M月d日 EEEE</string>
+    <style name="AlertDialog"/>
+    <style name="Animation.ColorSupport" parent="android:Animation"/>
+    <style name="Base.DialogWindowTitle.AppCompatSupport" parent="android:Widget">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompatSupport.Title</item>
+    </style>
+    <style name="Base.DialogWindowTitleBackground.AppCompatSupport" parent="android:Widget">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">?attr/supportDialogPreferredPadding</item>
+        <item name="android:paddingRight">?attr/supportDialogPreferredPadding</item>
+        <item name="android:paddingTop">@dimen/support_abc_dialog_padding_top_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport" parent="android:TextAppearance">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+        <item name="android:textSize">@dimen/support_abc_text_size_body_1_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Body1">
+        <item name="android:textSize">@dimen/support_abc_text_size_body_1_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Body2">
+        <item name="android:textSize">@dimen/support_abc_text_size_body_2_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Button">
+        <item name="android:textSize">@dimen/support_abc_text_size_button_material</item>
+        <item name="supportTextAllCaps">true</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Caption">
+        <item name="android:textSize">@dimen/support_abc_text_size_caption_material</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Display1">
+        <item name="android:textSize">@dimen/support_abc_text_size_display_1_material</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Display2">
+        <item name="android:textSize">@dimen/support_abc_text_size_display_2_material</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Display3">
+        <item name="android:textSize">@dimen/support_abc_text_size_display_3_material</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Display4">
+        <item name="android:textSize">@dimen/support_abc_text_size_display_4_material</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Headline">
+        <item name="android:textSize">@dimen/support_abc_text_size_headline_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Large">
+        <item name="android:textSize">@dimen/support_abc_text_size_large_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Large.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Light.Widget.PopupMenu.Large" parent="TextAppearance.AppCompatSupport.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Light.Widget.PopupMenu.Small" parent="TextAppearance.AppCompatSupport.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Medium">
+        <item name="android:textSize">@dimen/support_abc_text_size_medium_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Medium.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Menu">
+        <item name="android:textSize">@dimen/support_abc_text_size_menu_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.SearchResult" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Small">
+        <item name="android:textSize">@dimen/support_abc_text_size_small_material</item>
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Small.Inverse">
+        <item name="android:textColor">?android:attr/textColorTertiaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Subhead">
+        <item name="android:textSize">@dimen/support_abc_text_size_subhead_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Subhead.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Title">
+        <item name="android:textSize">@dimen/support_abc_text_size_title_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Title.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.ActionBar.Menu" parent="android:TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/supportActionMenuTextColor</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.ActionBar.Subtitle" parent="TextAppearance.AppCompatSupport.Subhead">
+        <item name="android:textSize">@dimen/support_abc_text_size_subtitle_material_toolbar</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.AppCompatSupport.Subhead.Inverse">
+        <item name="android:textSize">@dimen/support_abc_text_size_subtitle_material_toolbar</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.ActionBar.Title" parent="TextAppearance.AppCompatSupport.Title">
+        <item name="android:textSize">@dimen/support_abc_text_size_title_material_toolbar</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.ActionBar.Title.Inverse" parent="TextAppearance.AppCompatSupport.Title.Inverse">
+        <item name="android:textSize">@dimen/support_abc_text_size_title_material_toolbar</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.ActionMode.Subtitle" parent="TextAppearance.AppCompatSupport.Subhead">
+        <item name="android:textSize">@dimen/support_abc_text_size_subtitle_material_toolbar</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.ActionMode.Title" parent="TextAppearance.AppCompatSupport.Title">
+        <item name="android:textSize">@dimen/support_abc_text_size_title_material_toolbar</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.DropDownItem" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.PopupMenu.Large" parent="TextAppearance.AppCompatSupport.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.PopupMenu.Small" parent="TextAppearance.AppCompatSupport.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.Switch" parent="TextAppearance.AppCompatSupport.Button"/>
+    <style name="Base.TextAppearance.AppCompatSupport.Widget.TextView.SpinnerItem" parent="TextAppearance.AppCompatSupport.Menu"/>
+    <style name="Base.TextAppearance.Widget.AppCompatSupport.ExpandedMenu.Item" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompatSupport.Toolbar.Subtitle" parent="TextAppearance.AppCompatSupport.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompatSupport.Toolbar.Title" parent="TextAppearance.AppCompatSupport.Widget.ActionBar.Title">
+    </style>
+    <style name="Base.V7.Widget.AppCompatSupport.EditText" parent="android:Widget.EditText">
+        <item name="android:background">?attr/supportEditTextBackground</item>
+        <item name="android:textColor">?attr/supportEditTextColor</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ActionBar" parent="">
+        <item name="supportDisplayOptions">showTitle</item>
+        <item name="supportDivider">?attr/supportDividerVertical</item>
+        <item name="supportHeight">?attr/supportActionBarSize</item>
+
+        <item name="supportTitleTextStyle">@style/TextAppearance.AppCompatSupport.Widget.ActionBar.Title</item>
+        <item name="supportSubtitleTextStyle">@style/TextAppearance.AppCompatSupport.Widget.ActionBar.Subtitle</item>
+
+        <item name="supportBackground">@null</item>
+        <item name="supportBackgroundStacked">@null</item>
+        <item name="supportBackgroundSplit">@null</item>
+
+        <item name="supportActionButtonStyle">@style/Widget.AppCompatSupport.ActionButton</item>
+        <item name="supportActionOverflowButtonStyle">@style/Widget.AppCompatSupport.ActionButton.Overflow</item>
+
+        <item name="android:gravity">center_vertical</item>
+        <item name="supportContentInsetStart">@dimen/support_abc_action_bar_content_inset_material</item>
+        <item name="supportContentInsetEnd">@dimen/support_abc_action_bar_content_inset_material</item>
+        <item name="supportElevation">8dp</item>
+        <item name="supportPopupTheme">?attr/supportActionBarPopupTheme</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ActionBar.Solid">
+        <item name="supportBackground">?attr/supportColorPrimary</item>
+        <item name="supportBackgroundStacked">?attr/supportColorPrimary</item>
+        <item name="supportBackgroundSplit">?attr/supportColorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ActionBar.TabBar" parent="">
+        <item name="supportDivider">?attr/supportActionBarDivider</item>
+        <item name="supportShowDividers">middle</item>
+        <item name="supportDividerPadding">8dip</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ActionBar.TabText" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompatSupport.Medium</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxWidth">180dp</item>
+        <item name="supportTextAllCaps">true</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ActionButton" parent="">
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:minWidth">@dimen/support_abc_action_button_min_width_material</item>
+        <item name="android:minHeight">@dimen/support_abc_action_button_min_height_material</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="supportTextAllCaps">@bool/support_abc_config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ActionButton.CloseMode">
+        <item name="android:background">?attr/supportSelectableItemBackgroundBorderless</item>
+        <item name="android:minWidth">56dp</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ActionButton.Overflow">
+        <item name="android:src">@null</item>
+        <item name="android:contentDescription">@string/support_abc_action_menu_overflow_description</item>
+        <item name="android:minWidth">@dimen/support_abc_action_button_min_width_overflow_material</item>
+        <item name="android:minHeight">@dimen/support_abc_action_button_min_height_material</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ButtonBar" parent="android:Widget">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ButtonBar.AlertDialog">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.CompoundButton.CheckBox" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
+        <item name="android:background">?attr/supportSelectableItemBackgroundBorderless</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.CompoundButton.RadioButton" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">?android:attr/listChoiceIndicatorSingle</item>
+        <item name="android:background">?attr/supportSelectableItemBackgroundBorderless</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.DrawerArrowToggle" parent="Base.Widget.AppCompatSupport.DrawerArrowToggle.Common">
+        <item name="supportBarSize">18dp</item>
+        <item name="supportGapBetweenBars">3dp</item>
+        <item name="supportDrawableSize">24dp</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.DrawerArrowToggle.Common" parent="">
+        <item name="supportColor">?android:attr/textColorSecondary</item>
+        <item name="supportMiddleBarArrowSize">16dp</item>
+        <item name="supportSpinBars">true</item>
+        <item name="supportThickness">2dp</item>
+        <item name="supportTopBottomBarArrowSize">11.31dp</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.DropDownItem.Spinner" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompatSupport.Widget.DropDownItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.EditText" parent="Base.V7.Widget.AppCompatSupport.EditText"/>
+    <style name="Base.Widget.AppCompatSupport.Light.ActionBar" parent="Base.Widget.AppCompatSupport.ActionBar">
+        <item name="supportActionButtonStyle">@style/Widget.AppCompatSupport.Light.ActionButton</item>
+        <item name="supportActionOverflowButtonStyle">@style/Widget.AppCompatSupport.Light.ActionButton.Overflow</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.Light.ActionBar.Solid">
+        <item name="supportBackground">?attr/supportColorPrimary</item>
+        <item name="supportBackgroundStacked">?attr/supportColorPrimary</item>
+        <item name="supportBackgroundSplit">?attr/supportColorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.Light.ActionBar.TabBar" parent="Base.Widget.AppCompatSupport.ActionBar.TabBar">
+    </style>
+    <style name="Base.Widget.AppCompatSupport.Light.ActionBar.TabText" parent="Base.Widget.AppCompatSupport.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompatSupport.Light.ActionBar.TabText.Inverse" parent="Base.Widget.AppCompatSupport.Light.ActionBar.TabText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompatSupport.Medium.Inverse</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ListView" parent="android:Widget.ListView">
+        <item name="android:listSelector">?attr/supportListChoiceBackgroundIndicator</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ListView.DropDown">
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ListView.Menu" parent="android:Widget.ListView.Menu">
+        <item name="android:listSelector">?attr/supportListChoiceBackgroundIndicator</item>
+        <item name="android:divider">?attr/supportDividerHorizontal</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.PopupWindow" parent="android:Widget.PopupWindow">
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:minWidth">@dimen/support_abc_action_bar_progress_bar_size</item>
+        <item name="android:maxWidth">@dimen/support_abc_action_bar_progress_bar_size</item>
+        <item name="android:minHeight">@dimen/support_abc_action_bar_progress_bar_size</item>
+        <item name="android:maxHeight">@dimen/support_abc_action_bar_progress_bar_size</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+    </style>
+    <style name="Base.Widget.AppCompatSupport.TextView.SpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompatSupport.Widget.TextView.SpinnerItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.Toolbar" parent="android:Widget">
+        <item name="supportTitleTextAppearance">@style/TextAppearance.Widget.AppCompatSupport.Toolbar.Title</item>
+        <item name="supportSubtitleTextAppearance">@style/TextAppearance.Widget.AppCompatSupport.Toolbar.Subtitle</item>
+        <item name="android:minHeight">?attr/supportActionBarSize</item>
+        <item name="supportTitleMargins">4dp</item>
+        <item name="supportMaxButtonHeight">56dp</item>
+        <item name="supportCollapseIcon">?attr/supportHomeAsUpIndicator</item>
+        <item name="supportCollapseContentDescription">@string/support_abc_toolbar_collapse_description</item>
+        <item name="supportContentInsetStart">16dp</item>
+    </style>
+    <style name="Base.Widget.AppCompatSupport.Toolbar.Button.Navigation" parent="android:Widget">
+        <item name="android:minWidth">56dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?attr/supportSelectableItemBackground</item>
+    </style>
+    <style name="ButtonBar.ColorSupport" parent="android:ButtonBar">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">0dip</item>
+        <item name="android:background">@null</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="ColorAlertDailogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ColorAlertDialogNotBold">
+          <item name="android:textStyle">normal</item>
+    </style>
+    <style name="ColorNumberPicker">
+        <item name="android:solidColor">@android:color/transparent</item>
+        <item name="selectionDividerHeight">2dip</item>
+        <item name="internalMinHeight">120dip</item>
+        <item name="internalMaxHeight">@dimen/oppo_numberpicker_height</item>
+        <item name="internalMinWidth">80dip</item>
+        <item name="internalMaxWidth">120dip</item>
+        <item name="numberTextSize">@dimen/oppo_numberpicker_textSize_big</item>
+        <item name="endTextSize">@dimen/oppo_numberpicker_textSize_middle</item>
+        <item name="startTextSize">@dimen/oppo_numberpicker_textSize_small</item>
+        <item name="focusTextSize">@dimen/oppo_numberpicker_textSize_big</item>
+        <item name="isBold">true</item>
+        <item name="colorNormalTextColor">@color/C15</item>
+        <item name="colorFocusTextColor">@color/C05</item>
+        <item name="colorPickerRowNumber">3</item>
+    </style>
+    <style name="ColorSubTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/oppo_preference_fragment_item_padding_side</item>
+        <item name="android:paddingRight">@dimen/oppo_preference_fragment_item_padding_side</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <style name="ColorTag">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:minWidth">21dip</item>
+        <item name="android:textSize">@dimen/TF02</item>
+        <item name="android:paddingLeft">@dimen/M1</item>
+        <item name="android:paddingRight">@dimen/M1</item>
+    </style>
+    <style name="ColorWindowTitle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.ColorSupport.WindowTitle</item>
+        <item name="android:shadowColor">#BB000000</item>
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="DialogWindowTitle"/>
+    <style name="DialogWindowTitle.ColorSupport">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.ColorSupport.DialogWindowTitle</item>
+    </style>
+    <style name="OppoAlertDialogTextAppearance"/>
+    <style name="OppoAlertDialogTextAppearance.Large">
+        <item name="android:textSize">@dimen/oppo_dialog_content_text_size_large</item>
+        <item name="android:textColor">@color/oppo_dialog_content_text_color_large</item>
+    </style>
+    <style name="OppoAlertDialogTextAppearance.Small">
+        <item name="android:textSize">@dimen/oppo_dialog_content_text_size_small</item>
+        <item name="android:textColor">@color/oppo_dialog_content_text_color_small</item>
+    </style>
+    <style name="OppoDialogTextAppearance">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="OppoDialogTextAppearance.Title">
+        <item name="android:textSize">@dimen/oppo_dialog_title_text_size</item>
+        <item name="android:textColor">@color/oppo_alert_dialog_title_text_color</item>
+    </style>
+    <style name="OppoPreferenceCategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/oppo_preference_fragment_item_padding_side</item>
+        <item name="android:layout_marginRight">@dimen/oppo_preference_fragment_item_padding_side</item>
+    </style>
+    <style name="OppoPreferenceCategoryStyle.Title">
+        <item name="android:id">@android:id/title</item>
+        <item name="android:minHeight">@dimen/oppo_preference_category_text_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/oppo_preference_category_text_padding_left</item>
+        <item name="android:paddingRight">@dimen/oppo_preference_category_text_padding_left</item>
+        <item name="android:paddingTop">@dimen/oppo_common_category_text_padding_top</item>
+        <item name="android:paddingBottom">@dimen/oppo_common_category_text_padding_bottom</item>
+        <item name="android:textColor">@color/oppo_preference_category_text_color</item>
+        <item name="android:textSize">@dimen/oppo_preference_category_text_size</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompatSupport" parent="Base.DialogWindowTitle.AppCompatSupport">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.ActionBar.TitleItem" parent="android:Widget">
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.ActionButton.Overflow" parent="Base.Widget.AppCompatSupport.ActionButton.Overflow">
+        <item name="android:paddingLeft">@dimen/support_abc_action_bar_overflow_padding_start_material</item>
+        <item name="android:paddingRight">@dimen/support_abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.DialogTitle.Icon" parent="android:Widget">
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.PopupMenuItem" parent="android:Widget">
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.PopupMenuItem.InternalGroup" parent="android:Widget">
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.PopupMenuItem.Text" parent="android:Widget">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.Search.DropDown" parent="android:Widget">
+        <item name="android:paddingLeft">@dimen/support_abc_dropdownitem_text_padding_left</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.Search.DropDown.Icon1" parent="android:Widget">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.Search.DropDown.Icon2" parent="android:Widget">
+        <item name="android:layout_toLeftOf">@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.Search.DropDown.Query" parent="android:Widget">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.Search.DropDown.Text" parent="Base.Widget.AppCompatSupport.DropDownItem.Spinner">
+        <item name="android:layout_toLeftOf">@android:id/icon2</item>
+        <item name="android:layout_toRightOf">@android:id/icon1</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.SearchView.MagIcon" parent="android:Widget">
+        <item name="android:layout_marginLeft">@dimen/support_abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompatSupport.Toolbar.Button.Navigation" parent="Base.Widget.AppCompatSupport.Toolbar.Button.Navigation">
+        <item name="android:paddingLeft">@dimen/support_abc_action_bar_navigation_padding_start_material</item>
+    </style>
+    <style name="TextAppearance.AppCompatSupport" parent="Base.TextAppearance.AppCompatSupport"/>
+    <style name="TextAppearance.AppCompatSupport.Button" parent="Base.TextAppearance.AppCompatSupport.Button"/>
+    <style name="TextAppearance.AppCompatSupport.Inverse" parent="Base.TextAppearance.AppCompatSupport.Inverse"/>
+    <style name="TextAppearance.AppCompatSupport.Large" parent="Base.TextAppearance.AppCompatSupport.Large"/>
+    <style name="TextAppearance.AppCompatSupport.Large.Inverse" parent="Base.TextAppearance.AppCompatSupport.Large.Inverse"/>
+    <style name="TextAppearance.AppCompatSupport.Light.Widget.PopupMenu.Large" parent="Base.TextAppearance.AppCompatSupport.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Light.Widget.PopupMenu.Small" parent="Base.TextAppearance.AppCompatSupport.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Medium" parent="Base.TextAppearance.AppCompatSupport.Medium"/>
+    <style name="TextAppearance.AppCompatSupport.Medium.Inverse" parent="Base.TextAppearance.AppCompatSupport.Medium.Inverse"/>
+    <style name="TextAppearance.AppCompatSupport.Menu" parent="Base.TextAppearance.AppCompatSupport.Menu"/>
+    <style name="TextAppearance.AppCompatSupport.SearchResult.Subtitle" parent="Base.TextAppearance.AppCompatSupport.SearchResult.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.SearchResult.Title" parent="Base.TextAppearance.AppCompatSupport.SearchResult.Title">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Small" parent="Base.TextAppearance.AppCompatSupport.Small"/>
+    <style name="TextAppearance.AppCompatSupport.Small.Inverse" parent="Base.TextAppearance.AppCompatSupport.Small.Inverse"/>
+    <style name="TextAppearance.AppCompatSupport.Subhead" parent="Base.TextAppearance.AppCompatSupport.Subhead"/>
+    <style name="TextAppearance.AppCompatSupport.Subhead.Inverse" parent="Base.TextAppearance.AppCompatSupport.Subhead.Inverse"/>
+    <style name="TextAppearance.AppCompatSupport.Title" parent="Base.TextAppearance.AppCompatSupport.Title"/>
+    <style name="TextAppearance.AppCompatSupport.Title.Inverse" parent="Base.TextAppearance.AppCompatSupport.Title.Inverse"/>
+    <style name="TextAppearance.AppCompatSupport.Widget.ActionBar.Menu" parent="Base.TextAppearance.AppCompatSupport.Widget.ActionBar.Menu">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Widget.ActionBar.Subtitle" parent="Base.TextAppearance.AppCompatSupport.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Widget.ActionBar.Title" parent="Base.TextAppearance.AppCompatSupport.Widget.ActionBar.Title">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Widget.ActionMode.Subtitle" parent="Base.TextAppearance.AppCompatSupport.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Widget.ActionMode.Title" parent="Base.TextAppearance.AppCompatSupport.Widget.ActionMode.Title">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Widget.DropDownItem" parent="Base.TextAppearance.AppCompatSupport.Widget.DropDownItem">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Widget.PopupMenu.Large" parent="Base.TextAppearance.AppCompatSupport.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Widget.PopupMenu.Small" parent="Base.TextAppearance.AppCompatSupport.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.AppCompatSupport.Widget.Switch" parent="Base.TextAppearance.AppCompatSupport.Widget.Switch"/>
+    <style name="TextAppearance.AppCompatSupport.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompatSupport.Widget.TextView.SpinnerItem"/>
+    <style name="TextAppearance.ColorSupport" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/oppo_textview_text_size</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.AppCompatSupport.Widget.ActionBar.HintText" parent="TextAppearance.AppCompatSupport.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/color_actionbar_hint_text_size</item>
+        <item name="android:textColor">@color/C20</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.AppCompatSupport.Widget.ActionBar.Menu" parent="TextAppearance.AppCompatSupport.Widget.ActionBar.Menu">
+        <item name="android:textSize">@dimen/TD08</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:attr/actionMenuTextColor</item>
+        <item name="supportTextAllCaps">@bool/color_config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.AppCompatSupport.Widget.ActionBar.Subtitle" parent="TextAppearance.AppCompatSupport.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/oppo_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">@color/oppo_action_bar_subtitle_text_color</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.AppCompatSupport.Widget.ActionBar.Title" parent="TextAppearance.AppCompatSupport.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/oppo_action_bar_title_text_size</item>
+        <item name="android:textColor">@color/C20</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.AppCompatSupport.Widget.ActionMode.Subtitle" parent="TextAppearance.AppCompatSupport.Widget.ActionMode.Subtitle">
+        <item name="android:textSize">@dimen/oppo_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">@color/C20</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.AppCompatSupport.Widget.ActionMode.Title" parent="TextAppearance.AppCompatSupport.Widget.ActionMode.Title">
+        <item name="android:textSize">@dimen/oppo_action_bar_action_mode_title_text_size</item>
+        <item name="android:textColor">@color/C20</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.DialogWindowTitle">
+        <item name="android:textSize">@dimen/oppo_dialog_title_text_size</item>
+        <item name="android:textColor">@color/oppo_dialog_title_text_color</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.Inverse" parent="android:TextAppearance.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+        <item name="android:textSize">@dimen/oppo_textview_text_size</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.Widget" parent="android:TextAppearance.Widget"/>
+    <style name="TextAppearance.ColorSupport.Widget.DropDownItem">
+        <item name="android:textColor">#333333</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.Widget.PopupMenu" parent="android:TextAppearance.Widget.PopupMenu.Large">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.Widget.TextView"/>
+    <style name="TextAppearance.ColorSupport.Widget.TextView.Content">
+         <item name="android:textSize">@dimen/oppo_textview_content_text_size</item>
+        <item name="android:textColor">@color/oppo_textview_content_text_color</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.Widget.TextView.Title">
+         <item name="android:textSize">@dimen/oppo_textview_text_size</item>
+        <item name="android:textColor">@color/oppo_textview_title_text_color</item>
+    </style>
+    <style name="TextAppearance.ColorSupport.WindowTitle">
+        <item name="android:textColor">@color/oppo_title_text_color_large</item>
+        <item name="android:textSize">@dimen/oppo_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent=""/>
+    <style name="TextAppearance.StatusBar.EventContent.Time" parent=""/>
+    <style name="TextAppearance.Widget.AppCompatSupport.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompatSupport.Toolbar.Subtitle">
+    </style>
+    <style name="TextAppearance.Widget.AppCompatSupport.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompatSupport.Toolbar.Title">
+    </style>
+    <style name="Widget.AppCompatSupport.ActionBar" parent="Base.Widget.AppCompatSupport.ActionBar">
+    </style>
+    <style name="Widget.AppCompatSupport.ActionBar.Solid" parent="Base.Widget.AppCompatSupport.ActionBar.Solid">
+    </style>
+    <style name="Widget.AppCompatSupport.ActionBar.TabBar" parent="Base.Widget.AppCompatSupport.ActionBar.TabBar">
+    </style>
+    <style name="Widget.AppCompatSupport.ActionBar.TabText" parent="Base.Widget.AppCompatSupport.ActionBar.TabText">
+    </style>
+    <style name="Widget.AppCompatSupport.ActionButton" parent="Base.Widget.AppCompatSupport.ActionButton"/>
+    <style name="Widget.AppCompatSupport.ActionButton.CloseMode" parent="Base.Widget.AppCompatSupport.ActionButton.CloseMode"/>
+    <style name="Widget.AppCompatSupport.ActionButton.Overflow" parent="RtlOverlay.Widget.AppCompatSupport.ActionButton.Overflow"/>
+    <style name="Widget.AppCompatSupport.ButtonBar" parent="Base.Widget.AppCompatSupport.ButtonBar"/>
+    <style name="Widget.AppCompatSupport.ButtonBar.AlertDialog" parent="Base.Widget.AppCompatSupport.ButtonBar.AlertDialog"/>
+    <style name="Widget.AppCompatSupport.CompoundButton.CheckBox" parent="Base.Widget.AppCompatSupport.CompoundButton.CheckBox"/>
+    <style name="Widget.AppCompatSupport.CompoundButton.RadioButton" parent="Base.Widget.AppCompatSupport.CompoundButton.RadioButton"/>
+    <style name="Widget.AppCompatSupport.DrawerArrowToggle" parent="Base.Widget.AppCompatSupport.DrawerArrowToggle">
+        <item name="supportColor">?attr/supportColorControlNormal</item>
+    </style>
+    <style name="Widget.AppCompatSupport.DropDownItem.Spinner" parent="RtlOverlay.Widget.AppCompatSupport.Search.DropDown.Text"/>
+    <style name="Widget.AppCompatSupport.EditText" parent="Base.Widget.AppCompatSupport.EditText">
+    </style>
+    <style name="Widget.AppCompatSupport.Light.ActionBar" parent="Base.Widget.AppCompatSupport.Light.ActionBar">
+    </style>
+    <style name="Widget.AppCompatSupport.Light.ActionBar.Solid" parent="Base.Widget.AppCompatSupport.Light.ActionBar.Solid">
+    </style>
+    <style name="Widget.AppCompatSupport.Light.ActionBar.TabBar" parent="Base.Widget.AppCompatSupport.Light.ActionBar.TabBar">
+    </style>
+    <style name="Widget.AppCompatSupport.Light.ActionBar.TabText" parent="Base.Widget.AppCompatSupport.Light.ActionBar.TabText">
+    </style>
+    <style name="Widget.AppCompatSupport.Light.ActionButton" parent="Widget.AppCompatSupport.ActionButton"/>
+    <style name="Widget.AppCompatSupport.Light.ActionButton.Overflow" parent="Widget.AppCompatSupport.ActionButton.Overflow"/>
+    <style name="Widget.AppCompatSupport.ListView" parent="Base.Widget.AppCompatSupport.ListView"/>
+    <style name="Widget.AppCompatSupport.ListView.DropDown" parent="Base.Widget.AppCompatSupport.ListView.DropDown"/>
+    <style name="Widget.AppCompatSupport.ListView.Menu" parent="Base.Widget.AppCompatSupport.ListView.Menu">
+    </style>
+    <style name="Widget.AppCompatSupport.ProgressBar" parent="Base.Widget.AppCompatSupport.ProgressBar">
+    </style>
+    <style name="Widget.AppCompatSupport.ProgressBar.Horizontal" parent="Base.Widget.AppCompatSupport.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.AppCompatSupport.TextView.SpinnerItem" parent="Base.Widget.AppCompatSupport.TextView.SpinnerItem"/>
+    <style name="Widget.AppCompatSupport.Toolbar" parent="Base.Widget.AppCompatSupport.Toolbar"/>
+    <style name="Widget.AppCompatSupport.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompatSupport.Toolbar.Button.Navigation"/>
+    <style name="Widget.ColorSupport" parent="android:Widget"/>
+    <style name="Widget.ColorSupport.AppCompatSupport.ActionBar.TabBar" parent="Widget.AppCompatSupport.ActionBar.TabBar">
+        <item name="android:background">@null</item>
+        <item name="supportDivider">@null</item>
+        <item name="supportShowDividers">middle</item>
+        <item name="supportDividerPadding">2dip</item>
+    </style>
+    <style name="Widget.ColorSupport.AppCompatSupport.ActionButton" parent="Widget.AppCompatSupport.ActionButton">
+        <item name="android:minWidth">28dip</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:maxWidth">@dimen/oppo_action_bar_menu_max_width</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="supportTextAllCaps">@bool/color_config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorDivisionSubtitle">
+        <item name="colorDivisionSubtitleType">0</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorDivisionSubtitle.Heighter">
+        <item name="colorDivisionSubtitleType">1</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorHintRedDot">
+        <item name="colorHintRedDotColor">@color/color_hint_red_dot_bg_color</item>
+        <item name="colorHintRedDotTextColor">@color/color_hint_red_dot_text_color</item>
+        <item name="colorSmallTextSize">@dimen/color_hint_red_dot_small_text_size</item>
+        <item name="colorLargeTextSize">@dimen/color_hint_red_dot_large_text_size</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorLoadingView">
+        <item name="colorLoadingViewColor">@color/C15</item>
+        <item name="colorLoadingViewWidth">@dimen/color_loading_view_default_width</item>
+        <item name="colorLoadingViewHeight">@dimen/color_loading_view_default_height</item>
+        <item name="colorLoadingViewType">small</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorLoadingView.Large">
+        <item name="colorLoadingViewColor">@color/C04</item>
+        <item name="colorLoadingViewWidth">@dimen/color_loading_view_large_width</item>
+        <item name="colorLoadingViewHeight">@dimen/color_loading_view_large_height</item>
+        <item name="colorLoadingViewType">large</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorLoadingView.Medium">
+        <item name="colorLoadingViewColor">@color/C15</item>
+        <item name="colorLoadingViewWidth">@dimen/color_loading_view_medium_width</item>
+        <item name="colorLoadingViewHeight">@dimen/color_loading_view_medium_height</item>
+        <item name="colorLoadingViewType">medium</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorLoadingView.Refresh">
+        <item name="colorLoadingViewWidth">@dimen/color_loading_view_refresh_width</item>
+        <item name="colorLoadingViewHeight">@dimen/color_loading_view_refresh_height</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorNoContentStyle">
+        <item name="android:textSize">@dimen/TD11</item>
+        <item name="android:paddingLeft">@dimen/M8</item>
+        <item name="android:paddingRight">@dimen/M8</item>
+        <item name="android:textColor">@color/C17</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorNoContentStyle.NoNetwork">
+        <item name="android:textSize">@dimen/TD10</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorNoContentStyle.NotesMessage">
+        <item name="android:textSize">@dimen/TD06</item>
+    </style>
+    <style name="Widget.ColorSupport.ColorNoNetworkSmallStyle">
+        <item name="android:textSize">@dimen/TD06</item>
+        <item name="android:textColor">@color/C17</item>
+    </style>
+    <style name="Widget.ColorSupport.DropDownItem" parent="android:Widget.DropDownItem">
+        <item name="android:textAppearance">@style/TextAppearance.ColorSupport.Widget.DropDownItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="Widget.ColorSupport.DropDownItem.Spinner">
+        <item name="android:checkMark">?android:attr/listChoiceIndicatorSingle</item>
+        <item name="android:textAppearance">?attr/textAppearanceDialogLarge</item>
+        <item name="android:paddingLeft">@dimen/oppo_list_item_divider_left_margin</item>
+        <item name="android:paddingRight">@dimen/oppo_list_item_divider_right_margin</item>
+    </style>
+    <style name="Widget.ColorSupport.EditText" parent="android:Widget.EditText">
+        <item name="android:paddingLeft">@dimen/oppo_edit_text_paddingleft</item>
+        <item name="android:minHeight">@dimen/oppo_edit_text_height_min</item>
+        <item name="android:textSize">@dimen/oppo_edittext_text_size</item>
+    </style>
+    <style name="Widget.ColorSupport.ImageWell"/>
+    <style name="Widget.ColorSupport.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+    <style name="Widget.ColorSupport.ProgressBar.Inverse">
+    </style>
+    <style name="Widget.ColorSupport.ProgressBar.Large">
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+    </style>
+    <style name="Widget.ColorSupport.ProgressBar.Large.Inverse">
+    </style>
+    <style name="Widget.ColorSupport.ProgressBar.Small">
+        <item name="android:minWidth">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <style name="Widget.ColorSupport.ProgressBar.Small.Inverse">
+    </style>
+    <style name="Widget.ColorSupport.ProgressBar.Small.Title">
+    </style>
+    <style name="Widget.ColorSupport.TextView" parent="android:Widget.TextView"/>
+    <style name="Widget.ColorSupport.TextView.ListSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/oppo_list_separator_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

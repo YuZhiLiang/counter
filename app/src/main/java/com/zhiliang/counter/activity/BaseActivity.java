@@ -1,8 +1,10 @@
-package com.zhiliang.counter;
+package com.zhiliang.counter.activity;
 
 import android.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+
+import com.zhiliang.counter.R;
 
 /**
  * Created by YZL19 on 2018/4/6 0006.

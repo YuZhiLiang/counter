@@ -1,4 +1,4 @@
-package com.zhiliang.counter;
+package com.zhiliang.counter.activity;
 
 import android.Manifest;
 import android.content.Intent;
@@ -15,6 +15,7 @@ import android.widget.EditText;
 
 import com.blankj.utilcode.util.ToastUtils;
 import com.zhiliang.counter.Bean.CounterUser;
+import com.zhiliang.counter.R;
 
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
@@ -70,6 +71,7 @@ public class SplashActivity extends BaseActivity implements View.OnClickListener
             showLoginView();
         } else {
             startActivity(new Intent(this, MainActivity.class));
+            finish();
         }
     }
 
@@ -82,7 +84,7 @@ public class SplashActivity extends BaseActivity implements View.OnClickListener
         if (validationOfLegality()) {
             String userName = mEditTextUserName.getText().toString();
             String passWord = mEditTextPassWord.getText().toString();
-            BmobUser counterUser = new BmobUser();
+            CounterUser counterUser = new CounterUser();
             counterUser.setUsername(userName);
             counterUser.setPassword(passWord);
             counterUser.login(new SaveListener<BmobUser>() {

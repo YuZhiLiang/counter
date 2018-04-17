@@ -7,4 +7,13 @@ import cn.bmob.v3.BmobUser;
  */
 
 public class CounterUser extends BmobUser {
+    private CounterUser binduser;
+
+    public CounterUser getBinduser() {
+        return binduser;
+    }
+
+    public void setBinduser(CounterUser binduser) {
+        this.binduser = binduser;
+    }
 }

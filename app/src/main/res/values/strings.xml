@@ -18,4 +18,7 @@
     <string name="number_of_decisions">决定次数</string>
     <string name="master_decisions">发起了一次决定权,等待对方确认</string>
     <string name="undo">撤销</string>
+    <string name="loading_txt">正在加载...</string>
+    <string name="load_tips_network_unconnect">无网络连接，点击刷新</string>
+    <string name="setting_internet">设置网络</string>
 </resources>

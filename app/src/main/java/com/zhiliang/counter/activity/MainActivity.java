@@ -1,5 +1,6 @@
-package com.zhiliang.counter;
+package com.zhiliang.counter.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.BaseTransientBottomBar;
 import android.support.design.widget.FloatingActionButton;
@@ -9,11 +10,19 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
+import com.zhiliang.counter.Bean.CounterUser;
+import com.zhiliang.counter.R;
+import com.zhiliang.counter.utils.WeakActivityHandler;
+
+import cn.bmob.v3.BmobUser;
+
 public class MainActivity extends BaseActivity {
+    private static WeakActivityHandler<MainActivity> sWeakActivityHandler;
     private ImageView mImageViewLeft;
     private ImageView mImageViewRight;
     private ProgressBar mProgressBar;
     FloatingActionButton mFloatingActionButton;
+    private static long DELAYED_TIME = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +43,28 @@ public class MainActivity extends BaseActivity {
             }
         });
 
+        clearHandler();
+        sWeakActivityHandler = new WeakActivityHandler<>(this);
+        if (BmobUser.getCurrentUser(CounterUser.class).getBinduser() == null) {
+            startActivity(new Intent(this, BindActivity.class));
+        } else {
+            sWeakActivityHandler.postDelayed(mPollRunnable, DELAYED_TIME);
+        }
+    }
+
+    private Runnable mPollRunnable = new Runnable() {
+        @Override
+        public void run() {
+
+        }
+    };
+
+    private void clearHandler() {
+        if (sWeakActivityHandler != null) {
+            sWeakActivityHandler.clear();
+            sWeakActivityHandler.removeCallbacks(null);
+            sWeakActivityHandler = null;
+        }
     }
 
     BaseTransientBottomBar.BaseCallback<Snackbar> mBaseCallback;
@@ -66,5 +97,11 @@ public class MainActivity extends BaseActivity {
                         .show();
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        clearHandler();
     }
 }
