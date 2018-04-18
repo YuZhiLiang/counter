@@ -93,7 +93,7 @@ public class SplashActivity extends BaseActivity implements View.OnClickListener
                     if (e == null) {
                         startActivity(new Intent(SplashActivity.this, MainActivity.class));
                     } else {
-                        ToastUtils.showShort(R.string.register_failed);
+                        ToastUtils.showShort(R.string.login_failed);
                         e.printStackTrace();
                     }
                 }

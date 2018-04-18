@@ -14,6 +14,7 @@
     <string name="pass_word_lenght_exception">密码长度不合法</string>
     <string name="user_name_already_exist">用户已存在</string>
     <string name="register_failed">注册失败</string>
+    <string name="login_failed">登录失败</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="number_of_decisions">决定次数</string>
     <string name="master_decisions">发起了一次决定权,等待对方确认</string>
@@ -21,4 +22,10 @@
     <string name="loading_txt">正在加载...</string>
     <string name="load_tips_network_unconnect">无网络连接，点击刷新</string>
     <string name="setting_internet">设置网络</string>
+    <string name="bind">绑定</string>
+    <string name="binding_collaboration_account">绑定协作账户</string>
+    <string name="user_not_exist">用户不存在</string>
+    <string name="expection">出现错误</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="input_phone_num">输入电话号码</string>
 </resources>

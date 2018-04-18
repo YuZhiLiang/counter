@@ -36,12 +36,6 @@ public class MainActivity extends BaseActivity {
         mProgressBar = findViewById(R.id.progressBar);
 
         mFloatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
-        mFloatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
 
         clearHandler();
         sWeakActivityHandler = new WeakActivityHandler<>(this);

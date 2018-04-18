@@ -40,7 +40,9 @@
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".activity.BindActivity">
+        <activity
+            android:name=".activity.BindActivity"
+            android:label="@string/bind">
         </activity>
     </application>
 

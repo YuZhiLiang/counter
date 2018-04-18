@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 
 import com.zhiliang.counter.R;
+import com.zhiliang.counter.view.LoadingDialog;
 
 /**
  * Created by YZL19 on 2018/4/6 0006.
@@ -49,5 +50,23 @@ public class BaseActivity extends AppCompatActivity {
 
     protected void onCancelClick(int flage) {
 
+    }
+
+
+    private LoadingDialog mLoadingDialog;
+
+    protected void showLoadingDialog() {
+        if (mLoadingDialog == null) {
+            mLoadingDialog = new LoadingDialog(this);
+        }
+        if (!mLoadingDialog.isShowing()) {
+            mLoadingDialog.show();
+        }
+    }
+
+    protected void dismissLoadingDialog() {
+        if (mLoadingDialog != null && mLoadingDialog.isShowing()) {
+            mLoadingDialog.dismiss();
+        }
     }
 }

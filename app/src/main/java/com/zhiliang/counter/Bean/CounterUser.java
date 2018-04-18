@@ -7,13 +7,17 @@ import cn.bmob.v3.BmobUser;
  */
 
 public class CounterUser extends BmobUser {
-    private CounterUser binduser;
+    private BmobUser binduser;
 
-    public CounterUser getBinduser() {
+    public BmobUser getBinduser() {
         return binduser;
     }
 
-    public void setBinduser(CounterUser binduser) {
+    public void setBinduser(BmobUser binduser) {
         this.binduser = binduser;
+    }
+
+    public static class ColumnName {
+        public static String MOBILE_PHONE_NUMBER = "mobilePhoneNumber";
     }
 }

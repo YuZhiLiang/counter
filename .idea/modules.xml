@@ -3,13 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://E:\MyCode\counter\counter\app\app.iml" filepath="E:\MyCode\counter\counter\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/counter.iml" filepath="$PROJECT_DIR$/.idea/counter.iml" />
       <module fileurl="file://E:\MyCode\counter\counter\counter.iml" filepath="E:\MyCode\counter\counter\counter.iml" />
       <module fileurl="file://$PROJECT_DIR$/externallibrary/externallibrary.iml" filepath="$PROJECT_DIR$/externallibrary/externallibrary.iml" />
-      <module fileurl="file://E:\MyCode\counter\counter\externallibrary\externallibrary.iml" filepath="E:\MyCode\counter\counter\externallibrary\externallibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxpermissions/rxpermissions.iml" filepath="$PROJECT_DIR$/rxpermissions/rxpermissions.iml" />
-      <module fileurl="file://E:\MyCode\counter\counter\rxpermissions\rxpermissions.iml" filepath="E:\MyCode\counter\counter\rxpermissions\rxpermissions.iml" />
     </modules>
   </component>
 </project>

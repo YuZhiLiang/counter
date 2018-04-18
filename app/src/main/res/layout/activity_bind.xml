@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zhiliang.counter.activity.BindActivity">
+    android:orientation="horizontal">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/M7"
+        android:text="@string/binding_collaboration_account"/>
+
+    <EditText
+        android:id="@+id/bind_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/summary"
+        android:layout_marginEnd="@dimen/M7"
+        android:layout_marginStart="@dimen/M7"
+        android:layout_marginTop="@dimen/M4"
+        android:hint="@string/input_phone_num"/>
+
+    <Button
+        android:id="@+id/bind_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bind_edit"
+        android:layout_marginEnd="@dimen/M7"
+        android:layout_marginStart="@dimen/M7"
+        android:layout_marginTop="@dimen/M4"
+        android:text="@string/bind"/>
+</RelativeLayout>
