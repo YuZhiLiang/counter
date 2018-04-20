@@ -42,6 +42,8 @@ public class BaseActivity extends AppCompatActivity {
         builder.setPositiveButton(R.string.confirm, (dialog, which) -> onConfirmClick(flag));
 
         builder.setOnCancelListener(dialog -> onCancelClick(flag));
+        mConfirmDialog = builder.create();
+        mConfirmDialog.show();
     }
 
     protected void onConfirmClick(int flage) {
@@ -53,7 +55,7 @@ public class BaseActivity extends AppCompatActivity {
     }
 
 
-    private LoadingDialog mLoadingDialog;
+    protected LoadingDialog mLoadingDialog;
 
     protected void showLoadingDialog() {
         if (mLoadingDialog == null) {

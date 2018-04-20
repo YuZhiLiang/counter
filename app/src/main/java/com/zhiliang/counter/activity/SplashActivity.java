@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -13,8 +14,10 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
+import com.blankj.utilcode.util.RegexUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.zhiliang.counter.Bean.CounterUser;
+import com.zhiliang.counter.NotificationCollectorService;
 import com.zhiliang.counter.R;
 
 import cn.bmob.v3.BmobQuery;
@@ -34,12 +37,37 @@ public class SplashActivity extends BaseActivity implements View.OnClickListener
     private CheckBox mCheckBoxRememberPassWord;//记住密码
     private Button mButtonLogin;//登陆
     private Button mButtonRegister;//注册
+    private boolean hasRequestNotificationPermission = false;
+    private boolean hasResume = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         init();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (hasRequestNotificationPermission && hasResume) {
+            if (hasNotification()) {
+                permissionCheckComplete();
+            } else {
+                ToastUtils.showShort(R.string.permissions_tips_simple);
+                finish();
+            }
+        }
+        hasResume = true;
+    }
+
+    private boolean hasNotification() {
+        String string = Settings.Secure.getString(getContentResolver(),
+                "enabled_notification_listeners");
+        if (string.contains(NotificationCollectorService.class.getName())) {
+            return true;
+        }
+        return false;
     }
 
     private void init() {
@@ -60,7 +88,7 @@ public class SplashActivity extends BaseActivity implements View.OnClickListener
 
     private void checkPhoneStatePermission() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED) {
-            permissionCheckComplete();
+            requestNotificationPermission();
         } else {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_PHONE_STATE}, mPermissionRequestFotIntenet);
         }
@@ -140,10 +168,21 @@ public class SplashActivity extends BaseActivity implements View.OnClickListener
             }
         } else if (requestCode == mPermissionRequestFotPhoneState) {
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                permissionCheckComplete();
+                requestNotificationPermission();
             } else {
                 showPermissionRefuseDialog();
             }
+        }
+    }
+
+    private void requestNotificationPermission() {
+        if (hasNotification()) {
+            permissionCheckComplete();
+        } else {
+            hasRequestNotificationPermission = true;
+            Intent intent = new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS");
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
         }
     }
 
@@ -184,9 +223,10 @@ public class SplashActivity extends BaseActivity implements View.OnClickListener
                         if (integer > 0) {
                             ToastUtils.showShort(R.string.user_name_already_exist);
                         } else {
-                            CounterUser counterUser = new CounterUser();
+                            BmobUser counterUser = new BmobUser();
                             counterUser.setUsername(userName);
                             counterUser.setPassword(passWord);
+                            counterUser.setMobilePhoneNumber(userName);
                             counterUser.signUp(new SaveListener<String>() {
                                 @Override
                                 public void done(String s, BmobException e) {
@@ -213,8 +253,8 @@ public class SplashActivity extends BaseActivity implements View.OnClickListener
 
     private boolean validationOfLegality() {
         String uaerName = mEditTextUserName.getText().toString();
-        if (TextUtils.isEmpty(uaerName) || uaerName.length() < 3) {
-            ToastUtils.showShort(R.string.user_name_lenght_exception);
+        if (!RegexUtils.isMobileSimple(uaerName)) {
+            ToastUtils.showShort(R.string.not_phone_num);
             return false;
         }
         String passWord = mEditTextPassWord.getText().toString();

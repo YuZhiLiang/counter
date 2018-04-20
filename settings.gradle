@@ -1,1 +1,1 @@
-include ':app', ':rxpermissions', ':externallibrary'
+include ':app', ':externallibrary'

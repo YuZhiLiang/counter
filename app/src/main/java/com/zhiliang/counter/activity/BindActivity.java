@@ -15,7 +15,6 @@ import com.zhiliang.counter.R;
 import java.util.List;
 
 import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.UpdateListener;
@@ -23,6 +22,7 @@ import cn.bmob.v3.listener.UpdateListener;
 public class BindActivity extends BaseActivity {
     private EditText mEditText;
     private Button mButton;
+    public static final String KEY_BALANCE_ID = "balance";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,18 +44,18 @@ public class BindActivity extends BaseActivity {
             ToastUtils.showShort(R.string.user_not_exist);
         }
         showLoadingDialog();
-        BmobQuery<BmobUser> query = new BmobQuery<BmobUser>();
+        BmobQuery<CounterUser> query = new BmobQuery<CounterUser>();
         query.addWhereEqualTo(CounterUser.ColumnName.MOBILE_PHONE_NUMBER, s);
         query.setLimit(1);
-        query.findObjects(new FindListener<BmobUser>() {
+        query.findObjects(new FindListener<CounterUser>() {
             @Override
-            public void done(List<BmobUser> list, BmobException e) {
+            public void done(List<CounterUser> list, BmobException e) {
                 if (e == null) {
                     if (ObjectUtils.isEmpty(list)) {
                         ToastUtils.showShort(R.string.user_not_exist);
                         dismissLoadingDialog();
                     } else {
-                        doBind(list);
+                        doBindRequest(list);
                     }
                 } else {
                     ToastUtils.showShort(R.string.expection);
@@ -65,19 +65,42 @@ public class BindActivity extends BaseActivity {
         });
     }
 
-    private void doBind(List<BmobUser> list) {
-        CounterUser currentUser = BmobUser.getCurrentUser(CounterUser.class);
-        currentUser.setBinduser(list.get(0));
+    private void doBindRequest(List<CounterUser> list) {
+        CounterUser currentUser = CounterUser.getCurrentUser(CounterUser.class);
+        CounterUser counterUser = list.get(0);
+        currentUser.setBinduser(counterUser);
         currentUser.update(new UpdateListener() {
             @Override
             public void done(BmobException e) {
                 if (e == null) {
                     ToastUtils.showShort(R.string.bind_success);
-                } else {
+                    dismissLoadingDialog();
+                    setResult(RESULT_OK);
+                    finish();
+                }else {
+                    e.printStackTrace();
                     ToastUtils.showShort(R.string.expection);
+                    dismissLoadingDialog();
                 }
-                dismissLoadingDialog();
             }
         });
+    }
+
+    private final int mCancelBind = 1;
+
+    @Override
+    public void onBackPressed() {
+        if (mLoadingDialog == null || !mLoadingDialog.isShowing()) {
+            showConfirmDialog(getString(R.string.cancel_bind), getString(R.string.cancel_bind_summary), mCancelBind, false);
+        }
+    }
+
+    @Override
+    protected void onConfirmClick(int flage) {
+        super.onConfirmClick(flage);
+        if (flage == mCancelBind) {
+            setResult(RESULT_CANCELED);
+            finish();
+        }
     }
 }
